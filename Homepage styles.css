@@ -1,0 +1,3320 @@
+/* <!-- --------------------------------Header contact----------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  animation: body-ani 1s ease-in-out;
+  touch-action: pan-y;
+  overflow-x: hidden;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+@keyframes body-ani {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+section,
+main {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.image-slider-section {
+  padding: 15px 0;
+}
+
+.header-contact {
+  display: flex;
+  height: 47px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 90px;
+  background-color: #203059;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.header-contact .div {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.75px;
+  position: relative;
+  flex: 0 0 auto;
+  left: -161px;
+  gap: 10px;
+}
+
+.header-contact .phone-icon {
+  position: relative;
+  width: 12.84px;
+  height: 12.84px;
+  margin-top: -0.71px;
+  margin-bottom: -0.71px;
+  margin-left: -0.71px;
+}
+
+.header-contact .phone-number-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.75px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15.2px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  line-height: 39.7px;
+  white-space: nowrap;
+}
+
+.header-contact .mail-icon {
+  position: relative;
+  width: 16.17px;
+  height: 11.41px;
+}
+
+.header-contact .mail-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.75px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15.2px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  line-height: 39.7px;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* <!-- --------------------------------Header contact----------------------------------- */
+/* ---------------------------Navbar--------------------------------------- */
+.bars {
+  display: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 166px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 44px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 0;
+  z-index: 999;
+}
+.nav-anchor {
+  text-decoration: none;
+  color: #1c3352;
+}
+.nav-anchor:hover {
+  color: #1c3352;
+}
+.active {
+  color: #3eb3a0;
+}
+.navbar .whatsapp-image {
+  position: relative;
+  width: 141px;
+  height: 44px;
+}
+
+.navbar .div {
+  display: inline-flex;
+  height: 43px;
+  align-items: center;
+  gap: 105px;
+  position: relative;
+  flex: 0 0 auto;
+}
+.navbar .text-wrapper:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  color: #1c3352;
+}
+.navbar .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c3352;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.16px;
+  line-height: 41.8px;
+  white-space: nowrap;
+}
+
+.navbar .contact-section {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #203059;
+  border-radius: 5px;
+}
+
+.navbar .call-us-text {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.14px;
+  line-height: 41.8px;
+  white-space: nowrap;
+}
+.call-us-anchor {
+  color: #fff;
+  text-decoration: none;
+}
+/* --------------------------------------Navbar------------------------------------ */
+
+/* ---------------------------------------Banner-image-------------------------------- */
+.banner-dog-and-cat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+  position: relative;
+  width: 100%;
+  min-width: 1519px;
+  min-height: 412.93px;
+  padding: 15px 0;
+}
+
+.banner-dog-and-cat .image-of-pets {
+  position: relative;
+  width: 579.52px;
+  height: 412.93px;
+  object-fit: cover;
+}
+
+.banner-dog-and-cat .text-block {
+  position: relative;
+  width: 556.48px;
+  height: 247.44px;
+}
+
+.banner-dog-and-cat .logo {
+  position: absolute;
+  width: auto;
+  height: 126px;
+  top: 0;
+  left: 76px;
+}
+
+.banner-dog-and-cat .title {
+  position: absolute;
+  width: 556px;
+  height: 63px;
+  top: 111px;
+  left: 0;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 29.7px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 41.7px;
+}
+
+.banner-dog-and-cat .text-wrapper {
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: -0.09px;
+}
+
+.banner-dog-and-cat .span {
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #203059;
+  letter-spacing: -0.09px;
+}
+
+/* ---------------------------------------Banner-image-------------------------------- */
+
+/* -----------------------------------------Images-slider-------------------------------------- */
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#slider {
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+.slides {
+  overflow: hidden;
+  animation-name: fade;
+  animation-duration: 1s;
+  display: none;
+}
+
+#dot {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  border-radius: 50%;
+  background: #d3d3d3;
+  padding: 8px;
+  margin: 10px 5px;
+  visibility: hidden;
+}
+#heading {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin: 10px 0px;
+}
+
+/* ------------------------------------------------Image-slider-------------------------------- */
+
+/* -----------------------------------Service-boxes--------------------------------- */
+.service-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  scale: 85%;
+}
+
+.service-boxes .header-container {
+  display: flex;
+  flex-direction: column;
+  width: 629.95px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.service-boxes .header-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.service-boxes .vector {
+  position: relative;
+  width: 26.97px;
+  height: 27.63px;
+}
+
+.service-boxes .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 33.6px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.service-boxes .img {
+  position: relative;
+  width: 30.41px;
+  height: 28.24px;
+}
+
+.service-boxes .header-subtitle {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #203059;
+  font-size: 35.8px;
+  text-align: center;
+}
+
+.service-boxes .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20.11px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.service-boxes .top-section {
+  display: flex;
+  height: 275.13px;
+  align-items: center;
+  gap: 17px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  text-decoration: none;
+}
+
+.service-boxes .left-item {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffc1c2;
+  border-radius: 21px 0px 0px 21px;
+  overflow: hidden;
+}
+
+/* .service-boxes .left-item:hover {
+  background-color: #e7a4a5;
+} */
+
+.service-boxes .left-image {
+  position: relative;
+  width: 266.1px;
+  height: 274.79px;
+}
+
+.service-boxes .left-title {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #203059;
+  font-size: 69.2px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 73.4px;
+  white-space: nowrap;
+}
+
+.service-boxes .right-item {
+  display: flex;
+  width: 492px;
+  height: 275px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #7efe7c;
+  border-radius: 0px 21px 21px 0px;
+}
+
+.service-boxes .right-image {
+  position: relative;
+  width: 241.12px;
+  height: 238.95px;
+}
+
+.service-boxes .right-title {
+  position: relative;
+  width: 194px;
+  height: 216px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #203059;
+  font-size: 48.7px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 55.3px;
+}
+
+.service-boxes .bottom-section {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+.service-boxes .bottom-left-item {
+  display: flex;
+  width: 354px;
+  height: 278px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  background-color: #42afa8;
+  border-radius: 21px 0px 0px 21px;
+}
+
+.service-boxes .bottom-left-image {
+  position: relative;
+  width: 185.73px;
+  height: 195.5px;
+}
+
+.service-boxes .bottom-left-title {
+  position: relative;
+  width: 112px;
+  height: 229px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #203059;
+  font-size: 52.2px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 53.9px;
+}
+
+.service-boxes .bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.service-boxes .bottom-middle-item {
+  display: flex;
+  width: 367px;
+  height: 278px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #7efe7c;
+}
+
+.service-boxes .bottom-middle-image {
+  position: relative;
+  width: 253.07px;
+  height: 258.5px;
+}
+
+.service-boxes .bottom-middle-title {
+  position: relative;
+  width: 159px;
+  height: 237px;
+  margin-left: -67px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #203059;
+  font-size: 38.4px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 39.7px;
+}
+
+.service-boxes .bottom-right-item {
+  display: flex;
+  height: 278px;
+  align-items: center;
+  gap: 11px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #aee6ff;
+  border-radius: 0px 21px 21px 0px;
+}
+
+.service-boxes .bottom-right-image {
+  position: relative;
+  width: 316px;
+  height: 230px;
+}
+
+.service-boxes .bottom-right-title {
+  position: relative;
+  width: 187px;
+  height: 210px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #203059;
+  font-size: 39.8px;
+  letter-spacing: 0;
+  line-height: 41.1px;
+}
+
+/* ------------------------------------service-boxes--------------------------- */
+/* --------------------------Trust and safety----------------------------- */
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding: 30px 0;
+}
+
+.frame .header-wrapper {
+  justify-content: center;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.frame .header {
+  position: relative;
+  width: fit-content;
+  /* margin-top: -1px; */
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.frame .div {
+  gap: 120px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  justify-content: center;
+  gap: 75px;
+}
+
+.frame .div-2 {
+  display: flex;
+  flex-direction: column;
+  width: 279px;
+  height: 252.43px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 19px;
+}
+
+.frame .ensuring-pets-img {
+  position: relative;
+  width: 150.8px;
+  height: 150.8px;
+  margin-top: -0.19px;
+}
+
+.frame .div-3 {
+  display: flex;
+  flex-direction: column;
+  width: 279px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #42aea7;
+  font-size: 21.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.6px;
+}
+
+.frame .description {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 13.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.6px;
+}
+
+.frame .trust-pet-care-img {
+  position: relative;
+  width: 150.43px;
+  height: 150.43px;
+}
+
+.frame .reliable-and-safe {
+  position: relative;
+  width: 150.43px;
+  height: 150.43px;
+  object-fit: cover;
+}
+
+/* ------------------------------Trust and safety------------------------------------ */
+.youtube-video {
+  display: grid;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+.youtube-video-iframe {
+  width: 1000px;
+  aspect-ratio: 16/7;
+  border-radius: 20px;
+}
+/* ----------------------------------Dog banner---------------------------------- */
+.review-container {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  padding: 45px 0;
+}
+
+.dog-banner {
+  display: flex;
+  align-items: center;
+  gap: 98px;
+  position: relative;
+  background-color: #f2edff;
+  justify-content: center;
+  padding: 30px 0;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.dog-banner .dog-banner-heading {
+  display: flex;
+  flex-direction: column;
+  width: 615px;
+  align-items: flex-start;
+  gap: 80px;
+  position: relative;
+}
+
+.dog-banner .dog-banner-texts {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 180px;
+}
+
+.dog-banner .div {
+  position: absolute;
+  width: 615px;
+  top: -1px;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 72px;
+}
+
+.dog-banner .text-wrapper {
+  color: #3a3a3a;
+}
+
+.dog-banner .span {
+  color: #876ebd;
+}
+
+.dog-banner .dog-banner-icon {
+  position: absolute;
+  width: 88px;
+  height: 86px;
+  top: 152px;
+  left: 431px;
+}
+
+.dog-banner .dog-banner-content {
+  position: relative;
+  width: 602px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #3a3a3a;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 35.2px;
+}
+
+.dog-banner .dog-banner-IMG {
+  position: relative;
+  width: 410px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ----------------------------------Dog banner---------------------------------- */
+
+/* --------------------------------------Gallery------------------------------------------ */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 33px 60px;
+  position: relative;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.gallery .rectangle {
+  position: relative;
+  width: 348px;
+  height: 236px;
+}
+
+.gallery .img {
+  position: relative;
+  width: 348px;
+  height: 236px;
+  object-fit: cover;
+}
+
+/* ---------------------------------------Gallery-------------------------------------------- */
+.best-agency-banner {
+  width: 100vw;
+  margin-bottom: 50px;
+}
+.best-agency-banner img {
+  object-fit: fill;
+  width: 108%;
+  margin-left: -8%;
+}
+/* --------------------------------------------Review slider------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+.swiper-container {
+  border-radius: 5px;
+  width: 70vw;
+  overflow: hidden;
+  font-size: 50px;
+  position: relative;
+  padding-bottom: 70px;
+  font-family: sans-serif;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 0;
+  background-color: white;
+}
+
+.swiper-slide .ImgHolder {
+  background-color: #4361ee;
+  display: flex;
+  width: 100%;
+  padding: 30px;
+  border-bottom-left-radius: 20px;
+}
+
+.ContentHolder::before {
+  background-color: #4361ee;
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -5px;
+  z-index: -1;
+  right: 0;
+}
+
+.ContentHolder {
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  border-top-right-radius: 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+  opacity: 1;
+  border: 1px solid #4361ee;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4361ee;
+}
+
+.swiper-slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  object-fit: cover;
+  border: 3px solid #4361ee;
+  outline: 2px solid white;
+}
+
+.swiper-slide h3 {
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.swiper-slide p {
+  font-size: 0.9rem;
+  padding: 5px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4361ee;
+}
+
+@media (max-width: 638px) {
+  .swiper-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .swiper-container {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 300px) {
+  .swiper-container {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    border-radius: 0;
+  }
+
+  .ImgHolder {
+    border-radius: 0;
+  }
+
+  .ContentHolder {
+    border-radius: 0;
+  }
+}
+
+/* ---------------------------------------------Whatsapp button ---------------------------- */
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
+
+/* ----------------------------------Footer------------------------------------------------ */
+.section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.section .footer-wrapper {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 711px;
+}
+
+.section .footer {
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  top: 304px;
+  background-color: transparent;
+  display: flex;
+  position: relative;
+}
+
+.section .footer-text {
+  height: 407px;
+  align-items: center;
+  justify-content: center;
+  gap: 333px;
+  align-self: stretch;
+  width: 100%;
+  background-color: #203059;
+  display: flex;
+  position: relative;
+}
+
+.section .logo {
+  display: flex;
+  flex-direction: column;
+  width: 187px;
+  align-items: flex-end;
+  gap: 7px;
+  position: relative;
+}
+
+.section .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 52.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.section .div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20.7px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.section .quick-and-contact {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 80px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: 50px;
+}
+
+.section .quick-links,
+.section .contacts {
+  display: flex;
+  flex-direction: column;
+  width: 234px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.section .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.section .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.section .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: white;
+  font-size: 22.7px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+.section .call {
+  display: inline-flex;
+  align-items: center;
+  gap: 11.34px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.section .img {
+  width: 20px;
+  height: 20px;
+}
+
+.section .mail {
+  display: flex;
+  align-items: center;
+  gap: 11.34px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+.section .frame-3 {
+  /* width: 179.03px;
+  height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section .element {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+.section .dog-with-text {
+  display: flex;
+  flex-direction: column;
+  width: 1519px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: -114px;
+  left: 0;
+}
+
+.section .text-img-container {
+  display: flex;
+  flex-direction: column;
+  width: 941px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.section .text-and-img {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 56px 16px 239px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #1c4b48;
+  border-radius: 119px;
+  box-shadow: 4.83px 1.61px 3.22px #00000040;
+}
+
+.section .p {
+  position: relative;
+  width: 679px;
+  margin-top: -0.31px;
+  margin-left: -16.5px;
+  margin-right: -16.5px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #f4f4f4;
+  font-size: 25.4px;
+  letter-spacing: 1.65px;
+  line-height: 39px;
+}
+
+.section .image {
+  position: absolute;
+  width: 216px;
+  height: 302px;
+  top: -190px;
+  left: 0;
+  object-fit: cover;
+}
+.section .dog-with-text .p-2 {
+  margin-right: 150px;
+  color: #fff;
+  display: none;
+}
+
+/* -------------------------------------------Footer--------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    min-width: 1000px;
+    min-height: 40px;
+  }
+  .navbar .whatsapp-image {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .navbar .div {
+    height: 40px;
+    gap: 80px;
+  }
+  .banner-dog-and-cat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    min-width: 1400px;
+    min-height: 350px;
+    padding: 15px 0;
+  }
+
+  .banner-dog-and-cat .image-of-pets {
+    position: relative;
+    width: 579.52px;
+    height: 412.93px;
+    object-fit: cover;
+  }
+
+  .banner-dog-and-cat .text-block {
+    position: relative;
+    width: 450px;
+    height: 247.44px;
+  }
+
+  .banner-dog-and-cat .logo {
+    position: absolute;
+    width: auto;
+    height: 126px;
+    top: 0;
+    left: -10px;
+  }
+
+  .banner-dog-and-cat .title {
+    position: absolute;
+    width: 450px;
+    height: 63px;
+    top: 111px;
+    left: -25px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 26px;
+    text-align: start;
+    letter-spacing: -0.3px;
+    line-height: 41.7px;
+  }
+  .service-boxes .header-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  .service-boxes .left-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffc1c2;
+    border-radius: 21px 0px 0px 21px;
+    overflow: hidden;
+  }
+
+  .service-boxes .left-item:hover {
+    background-color: #e7a4a5;
+  }
+
+  .service-boxes .left-image {
+    position: relative;
+    width: 200.1px;
+    height: 200.79px;
+  }
+
+  .service-boxes .left-title {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #203059;
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 73.4px;
+    white-space: nowrap;
+  }
+
+  .service-boxes .right-item {
+    display: flex;
+    width: 492px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #7efe7c;
+    border-radius: 0px 21px 21px 0px;
+  }
+
+  .service-boxes .right-image {
+    position: relative;
+    width: 200.1px;
+    height: 200.79px;
+  }
+
+  .service-boxes .right-title {
+    position: relative;
+    width: 194px;
+    height: 216px;
+    margin-top: 30px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 48.7px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 55.3px;
+  }
+
+  .service-boxes .bottom-section {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .service-boxes .bottom-left-item {
+    display: flex;
+    width: 354px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    background-color: #42afa8;
+    border-radius: 21px 0px 0px 21px;
+  }
+
+  .service-boxes .bottom-left-image {
+    position: relative;
+    width: 150.73px;
+    height: 150.5px;
+  }
+
+  .service-boxes .bottom-left-title {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 53.9px;
+  }
+
+  .service-boxes .bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .service-boxes .bottom-middle-item {
+    display: flex;
+    width: 367px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #7efe7c;
+  }
+
+  .service-boxes .bottom-middle-image {
+    position: relative;
+    width: 300.07px;
+    height: 200.5px;
+  }
+
+  .service-boxes .bottom-middle-title {
+    position: relative;
+    width: 159px;
+    height: 237px;
+    margin-top: 60px;
+    margin-right: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 30.4px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 39.7px;
+  }
+
+  .service-boxes .bottom-right-item {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    gap: 11px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #aee6ff;
+    border-radius: 0px 21px 21px 0px;
+  }
+
+  .service-boxes .bottom-right-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+
+  .service-boxes .bottom-right-title {
+    position: relative;
+    width: 150px;
+    height: 210px;
+    margin-top: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 30.8px;
+    letter-spacing: 0;
+    line-height: 41.1px;
+  }
+  .dog-banner {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    background-color: #f2edff;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .dog-banner .dog-banner-heading {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+
+  .dog-banner .dog-banner-texts {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 180px;
+  }
+
+  .dog-banner .div {
+    position: absolute;
+    width: 615px;
+    top: -1px;
+    left: 70px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 50px;
+  }
+
+  .dog-banner .text-wrapper {
+    color: #3a3a3a;
+  }
+
+  .dog-banner .span {
+    color: #876ebd;
+  }
+
+  .dog-banner .dog-banner-icon {
+    position: absolute;
+    width: 80px;
+    height: 78px;
+    top: 90px;
+    left: 380px;
+  }
+
+  .dog-banner .dog-banner-content {
+    position: relative;
+    width: 450px;
+    margin-left: 70px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30.2px;
+  }
+
+  .dog-banner .dog-banner-IMG {
+    position: relative;
+    width: 410px;
+    height: auto;
+    object-fit: cover;
+  }
+  /* ----------------------------------Footer------------------------------------------------ */
+  .section .footer-text {
+    height: 407px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    position: relative;
+  }
+  .section .dog-with-text {
+    display: flex;
+    flex-direction: column;
+    width: 1519px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: -114px;
+    left: -250px;
+  }
+
+  .section .text-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 941px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .text-and-img {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 56px 16px 239px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #1c4b48;
+    border-radius: 119px;
+    box-shadow: 4.83px 1.61px 3.22px #00000040;
+  }
+
+  .section .p {
+    position: relative;
+    width: 679px;
+    margin-top: -0.31px;
+    margin-left: -16.5px;
+    margin-right: -16.5px;
+    font-family: "Rubik-Regular", Helvetica;
+    font-weight: 400;
+    color: #f4f4f4;
+    font-size: 25.4px;
+    letter-spacing: 1.65px;
+    line-height: 39px;
+  }
+
+  .section .image {
+    position: absolute;
+    width: 216px;
+    height: 302px;
+    top: -190px;
+    left: 0;
+    object-fit: cover;
+  }
+  /* ----------------------------------Footer------------------------------------------------ */
+  .youtube-video-iframe {
+    width: 800px;
+    aspect-ratio: 16/7;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    min-width: 800px;
+    min-height: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0;
+  }
+  .navbar .whatsapp-image {
+    position: relative;
+    width: 100px;
+    height: 35px;
+  }
+  .navbar .div {
+    display: inline-flex;
+    align-items: flex-end;
+    height: 40px;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  .navbar .contact-section {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #203059;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .navbar .call-us-text {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+  .header-contact {
+    display: flex;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: #203059;
+    width: 150%;
+    right: 0;
+    top: 0;
+    z-index: 999;
+  }
+  .banner-dog-and-cat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    position: relative;
+    width: 50%;
+    min-width: 400px;
+    min-height: 300px;
+    padding: 15px 10px 0;
+  }
+
+  .banner-dog-and-cat .image-of-pets {
+    position: relative;
+    width: 400.52px;
+    height: 300.93px;
+    object-fit: fill;
+  }
+
+  .banner-dog-and-cat .text-block {
+    position: relative;
+    width: 350px;
+    height: 200.44px;
+  }
+
+  .banner-dog-and-cat .logo {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 0;
+    left: 20px;
+  }
+
+  .banner-dog-and-cat .title {
+    position: absolute;
+    width: 450px;
+    height: 63px;
+    top: 111px;
+    left: 20px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    text-align: start;
+    letter-spacing: -0.3px;
+    line-height: 41.7px;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 30px 0;
+  }
+  .frame .div {
+    gap: 80px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 279px;
+    height: 252.43px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 19px;
+  }
+
+  .frame .ensuring-pets-img {
+    position: relative;
+    width: 120.8px;
+    height: 120.8px;
+    margin-top: -0.19px;
+  }
+  .frame .trust-pet-care-img {
+    position: relative;
+    width: 120.43px;
+    height: 120.43px;
+  }
+
+  .frame .reliable-and-safe {
+    position: relative;
+    width: 120.43px;
+    height: 120.43px;
+    object-fit: cover;
+  }
+  .frame .title {
+    font-size: 16px;
+  }
+  .frame .description {
+    font-size: 10px;
+  }
+  .service-boxes .left-item {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffc1c2;
+    border-radius: 21px 0px 0px 21px;
+    overflow: hidden;
+  }
+
+  .service-boxes .left-item:hover {
+    background-color: #e7a4a5;
+  }
+
+  .service-boxes .left-image {
+    position: relative;
+    width: 180.1px;
+    height: 180.79px;
+  }
+
+  .service-boxes .left-title {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #203059;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 73.4px;
+    white-space: nowrap;
+  }
+
+  .service-boxes .right-item {
+    display: flex;
+    width: 380px;
+    height: 180.79px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #7efe7c;
+    border-radius: 0px 21px 21px 0px;
+  }
+
+  .service-boxes .right-image {
+    position: relative;
+    width: 180.1px;
+    height: 180.79px;
+  }
+
+  .service-boxes .right-title {
+    position: relative;
+    width: 194px;
+    height: 216px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 40.7px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 55.3px;
+  }
+
+  .service-boxes .bottom-section {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .service-boxes .bottom-left-item {
+    display: flex;
+    width: 300px;
+    height: 180.79px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    background-color: #42afa8;
+    border-radius: 21px 0px 0px 21px;
+  }
+
+  .service-boxes .bottom-left-image {
+    position: relative;
+    width: 100.73px;
+    height: 120.5px;
+  }
+
+  .service-boxes .bottom-left-title {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 40px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 53.9px;
+  }
+
+  .service-boxes .bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .service-boxes .bottom-middle-item {
+    display: flex;
+    width: 250px;
+    gap: 50px;
+    height: 180.79px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #7efe7c;
+  }
+
+  .service-boxes .bottom-middle-image {
+    position: relative;
+    width: 100.07px;
+    height: 180.79px;
+  }
+
+  .service-boxes .bottom-middle-title {
+    position: relative;
+    width: 150px;
+    height: 237px;
+    margin-top: 60px;
+    margin-right: -10px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 25.4px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 39.7px;
+  }
+
+  .service-boxes .bottom-right-item {
+    display: flex;
+    height: 180.79px;
+    align-items: center;
+    gap: 9px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #aee6ff;
+    border-radius: 0px 21px 21px 0px;
+  }
+
+  .service-boxes .bottom-right-image {
+    position: relative;
+    width: 130px;
+    height: 180.79px;
+  }
+
+  .service-boxes .bottom-right-title {
+    position: relative;
+    width: 150px;
+    height: 210px;
+    margin-top: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 28.8px;
+    letter-spacing: 0;
+    line-height: 41.1px;
+  }
+  .service-boxes .main-content {
+    display: flex;
+    gap: 0px;
+  }
+  .dog-banner {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    background-color: #f2edff;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .dog-banner .dog-banner-heading {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: flex-start;
+    gap: 0px;
+    position: relative;
+  }
+
+  .dog-banner .dog-banner-texts {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 130px;
+  }
+
+  .dog-banner .div {
+    position: absolute;
+    width: 615px;
+    top: -1px;
+    left: 100px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 40px;
+  }
+  .dog-banner .dog-banner-icon {
+    position: absolute;
+    width: 60px;
+    height: 58px;
+    top: 70px;
+    left: 340px;
+  }
+
+  .dog-banner .dog-banner-content {
+    position: relative;
+    width: 400px;
+    margin-left: 90px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 26.2px;
+  }
+
+  .dog-banner .dog-banner-IMG {
+    position: relative;
+    width: 210px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  /* ----------------------------------Footer------------------------------------------------ */
+  .section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section .footer-wrapper {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 711px;
+  }
+
+  .section .footer {
+    flex-direction: column;
+    width: 100vw;
+    align-items: flex-start;
+    top: 304px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+  }
+
+  .section .footer-text {
+    height: 407px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    position: relative;
+  }
+
+  .section .logo {
+    display: flex;
+    flex-direction: column;
+    width: 187px;
+    align-items: flex-end;
+    gap: 7px;
+    position: relative;
+  }
+
+  .section .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 60px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: 50px;
+  }
+
+  .section .quick-links,
+  .section .contacts {
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+
+  .section .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .section .call {
+    display: inline-flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section .mail {
+    display: flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .section .frame-3 {
+    /* width: 179.03px;
+  height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section .element {
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+  }
+
+  .section .dog-with-text {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: -114px;
+    left: 0;
+  }
+
+  .section .text-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .text-and-img {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 56px 16px 239px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #1c4b48;
+    border-radius: 119px;
+    box-shadow: 4.83px 1.61px 3.22px #00000040;
+  }
+
+  .section .p {
+    position: relative;
+    width: 679px;
+    margin-top: -0.31px;
+    margin-left: -16.5px;
+    margin-right: -16.5px;
+    font-family: "Rubik-Regular", Helvetica;
+    font-weight: 400;
+    color: #f4f4f4;
+    font-size: 20.4px;
+    letter-spacing: 1.65px;
+    line-height: 39px;
+  }
+
+  .section .image {
+    position: absolute;
+    width: 216px;
+    height: 302px;
+    top: -190px;
+    left: 0;
+    object-fit: cover;
+  }
+  .whatsapp_float {
+    position: fixed;
+    bottom: 40px;
+    right: 450px;
+  }
+  .gallery {
+    display: flex;
+    gap: 25px 45px;
+  }
+  .youtube-video-iframe {
+    width: 600px;
+    aspect-ratio: 16/7;
+    border-radius: 20px;
+  }
+  .best-agency-banner {
+    width: 100vw;
+    margin-bottom: 50px;
+  }
+  .best-agency-banner img {
+    object-fit: fill;
+    width: 110%;
+    margin-left: -6%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar .contact-section {
+    margin-right: 50px;
+  }
+  .banner-dog-and-cat {
+    gap: 0px;
+  }
+
+  .banner-dog-and-cat .image-of-pets {
+    width: 400.52px;
+    height: 300.93px;
+    object-fit: fill;
+  }
+
+  .banner-dog-and-cat .text-block {
+    width: 350px;
+    height: 200.44px;
+  }
+
+  .banner-dog-and-cat .logo {
+    width: 200px;
+    height: 50px;
+  }
+
+  .banner-dog-and-cat .title {
+    width: 350px;
+    height: 63px;
+    top: 111px;
+    left: 10px;
+    font-size: 15px;
+  }
+
+  .service-boxes .bottom-left-item {
+    width: 280px;
+    height: 180.79px;
+    gap: 0px;
+  }
+
+  .service-boxes .bottom-left-title {
+    position: relative;
+    width: 80px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 30px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 53.9px;
+  }
+  .service-boxes .bottom-middle-item {
+    width: 230px;
+    gap: 50px;
+  }
+  .service-boxes .bottom-middle-title {
+    width: 100px;
+    height: 237px;
+    margin-top: 60px;
+    margin-right: -30px;
+    font-size: 22.4px;
+    text-align: center;
+  }
+  .frame .div {
+    gap: 30px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 252.43px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 19px;
+  }
+
+  .frame .ensuring-pets-img {
+    position: relative;
+    width: 100.43px;
+    height: 100.43px;
+    margin-top: -0.19px;
+  }
+  .frame .trust-pet-care-img {
+    position: relative;
+    width: 100.43px;
+    height: 100.43px;
+  }
+
+  .frame .reliable-and-safe {
+    position: relative;
+    width: 100.43px;
+    height: 100.43px;
+    object-fit: cover;
+  }
+  .frame .title {
+    font-size: 14px;
+  }
+  .frame .description {
+    font-size: 8px;
+  }
+  .dog-banner {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    background-color: #f2edff;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .dog-banner .dog-banner-heading {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: flex-start;
+    gap: 0px;
+    position: relative;
+  }
+
+  .dog-banner .dog-banner-texts {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 130px;
+  }
+
+  .dog-banner .div {
+    position: absolute;
+    width: 615px;
+    top: -1px;
+    left: 180px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 30px;
+  }
+  .dog-banner .dog-banner-icon {
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    top: 60px;
+    left: 360px;
+  }
+
+  .dog-banner .dog-banner-content {
+    position: relative;
+    width: 300px;
+    margin-left: 180px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 22.2px;
+  }
+
+  .dog-banner .dog-banner-IMG {
+    position: relative;
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 100px;
+  }
+  .gallery .rectangle {
+    position: relative;
+    width: 170px;
+    height: 120px;
+  }
+
+  .gallery .img {
+    position: relative;
+    width: 170px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .section .footer-text {
+    height: 407px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    position: relative;
+  }
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 567px) {
+  #slider {
+    width: 100%;
+  }
+  .bars {
+    display: block;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #fff;
+  }
+  .active {
+    color: #fff;
+  }
+  .navbar {
+    display: none;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 0px;
+    position: relative;
+    width: 100%;
+    min-width: 0px;
+    min-height: 200px;
+    z-index: 999;
+    padding: 20px 0;
+    background-color: #3eb3a0;
+    transform-origin: top;
+    animation: nav 0.5s ease-in-out;
+    transition: 0.5s;
+  }
+  @keyframes nav {
+    from {
+      transform: scaleY(0);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
+  .navactive {
+    display: flex;
+    transition: 0.5s;
+  }
+  .navbar .whatsapp-image {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .navbar .div {
+    display: flex;
+    flex-direction: column;
+    height: 43px;
+    align-items: center;
+    gap: 0px;
+    flex: 0 0 auto;
+    background-color: #3eb3a0;
+  }
+  .navbar .home-link {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1c3352;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+
+  .navbar .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #1c3352;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+  .navbar .contact-section {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #203059;
+    border-radius: 5px;
+    margin-right: 0px;
+  }
+
+  .navbar .call-us-text {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+  .banner-dog-and-cat {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    padding: 50px 0 15px 0;
+  }
+  .banner-dog-and-cat .image-of-pets {
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    object-fit: fill;
+  }
+  #slider {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+  }
+  .slides-img {
+    object-fit: fill;
+    height: 150px;
+  }
+  .youtube-video-iframe {
+    width: 300px;
+    aspect-ratio: 16/7;
+    border-radius: 20px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 33px 30px;
+    position: relative;
+    justify-content: center;
+    padding: 10px 0 30px 0;
+  }
+  .gallery .rectangle {
+    position: relative;
+    width: 150px;
+    height: 100px;
+  }
+
+  .gallery .img {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding: 30px 0 10px 0;
+  }
+
+  .frame .header-wrapper {
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .frame .header {
+    position: relative;
+    width: fit-content;
+    /* margin-top: -1px; */
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30.5px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 0;
+    white-space: nowrap;
+  }
+
+  .frame .div {
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 279px;
+    height: 252.43px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 19px;
+  }
+
+  .frame .ensuring-pets-img {
+    position: relative;
+    width: 80.8px;
+    height: 80.8px;
+    margin-top: -0.19px;
+  }
+
+  .frame .div-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .frame .title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #42aea7;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20.6px;
+    margin-bottom: 10px;
+  }
+
+  .frame .description {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 10.6px;
+  }
+
+  .frame .trust-pet-care-img {
+    position: relative;
+    width: 80.8px;
+    height: 80.8px;
+  }
+
+  .frame .reliable-and-safe {
+    position: relative;
+    width: 80.8px;
+    height: 80.8px;
+    object-fit: cover;
+  }
+
+  .dog-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    background-color: #f2edff;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .dog-banner .dog-banner-heading {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+
+  .dog-banner .dog-banner-texts {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 120px;
+  }
+  .dog-banner .div {
+    position: absolute;
+    width: 615px;
+    top: -1px;
+    left: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 30px;
+  }
+
+  .dog-banner .text-wrapper {
+    color: #3a3a3a;
+  }
+
+  .dog-banner .span {
+    color: #876ebd;
+  }
+
+  .dog-banner .dog-banner-icon {
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    top: 55px;
+    left: 200px;
+  }
+
+  .dog-banner .dog-banner-content {
+    position: relative;
+    width: 250px;
+    margin-right: 180px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+  }
+  .dog-banner .dog-banner-IMG {
+    position: relative;
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 0px;
+  }
+  .header-contact {
+    display: flex;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #203059;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+  }
+
+  .header-contact .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 4.75px;
+    position: relative;
+    flex: 0 0 auto;
+    left: 0px;
+    gap: 10px;
+  }
+
+  .header-contact .phone-icon {
+    position: relative;
+    width: 10.84px;
+    height: 10.84px;
+    margin-top: -0.71px;
+    margin-bottom: -0.71px;
+    margin-left: -0.71px;
+  }
+
+  .header-contact .phone-number-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10.2px;
+    text-align: center;
+    letter-spacing: -0.15px;
+    line-height: 39.7px;
+    white-space: nowrap;
+  }
+
+  .header-contact .mail-icon {
+    position: relative;
+    width: 10.84px;
+    height: 10.84px;
+  }
+
+  .header-contact .mail-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10.2px;
+    text-align: center;
+    letter-spacing: -0.15px;
+    line-height: 39.7px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .service-boxes .vector {
+    position: relative;
+    width: 21.97px;
+    height: 22.63px;
+  }
+
+  .service-boxes .text-wrapper {
+    font-size: 28.6px;
+  }
+
+  .service-boxes .img {
+    width: 25.41px;
+    height: 23.24px;
+  }
+
+  .service-boxes .header-subtitle {
+    font-size: 22.8px;
+  }
+  .swiper-slide img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+    border: 3px solid #4361ee;
+    outline: 2px solid white;
+  }
+
+  .swiper-slide h3 {
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .swiper-slide p {
+    font-size: 0.6rem;
+    padding: 0 5px;
+  }
+  /* ----------------------------------Footer------------------------------------------------ */
+  .section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section .footer-wrapper {
+    background-color: #ffffff;
+    width: 100vw;
+    height: auto;
+  }
+
+  .section .footer {
+    flex-direction: column;
+    width: 100vw;
+    align-items: flex-start;
+    top: 100px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+  }
+
+  .section .footer-text {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0 30px 0;
+    align-self: stretch;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section .logo {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    align-items: flex-end;
+    gap: 7px;
+    position: relative;
+  }
+
+  .section .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: 50px;
+  }
+
+  .section .quick-links,
+  .section .contacts {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: flex-start;
+    gap: 0px;
+    position: relative;
+  }
+
+  .section .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  .section .call {
+    display: inline-flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .section .mail {
+    display: flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .section .frame-3 {
+    /* width: 179.03px;
+  height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .section .element {
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: 0;
+    margin-bottom: 7px;
+  }
+  .section .dog-with-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: absolute;
+    top: -80px;
+    left: -60px;
+  }
+  .section .dog-with-text .text-img-container {
+    height: 200px;
+    width: 100px;
+  }
+  .section .dog-with-text .p {
+    font-size: 10px;
+    width: 200px;
+    line-height: 15px;
+    margin-right: 100px;
+    display: none;
+  }
+  .section .dog-with-text .p-2 {
+    margin-right: 150px;
+    color: #fff;
+    display: block;
+  }
+  .section .text-and-img {
+    height: 100px;
+  }
+  .section .dog-with-text .image {
+    width: 80px;
+    height: 100px;
+    margin-top: 140px;
+  }
+  .swiper-container {
+    width: 80vw;
+  }
+  .service-boxes .top-section {
+    display: flex;
+    height: 200.13px;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  .service-boxes .left-item {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffc1c2;
+    border-radius: 21px 0px 0px 21px;
+    overflow: hidden;
+    height: 150.79px;
+    width: 250px;
+  }
+
+  .service-boxes .left-item:hover {
+    background-color: #e7a4a5;
+  }
+
+  .service-boxes .left-image {
+    position: relative;
+    width: 100.1px;
+    height: 100.79px;
+  }
+
+  .service-boxes .left-title {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 700;
+    color: #203059;
+    font-size: 16px;
+    text-align: start;
+    letter-spacing: 0;
+    line-height: 25.4px;
+    white-space: wrap;
+  }
+
+  .service-boxes .right-item {
+    display: flex;
+    width: 200px;
+    height: 150.79px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #7efe7c;
+    border-radius: 0px 21px 21px 0px;
+  }
+
+  .service-boxes .right-image {
+    position: relative;
+    width: 100.1px;
+    height: 100.79px;
+  }
+
+  .service-boxes .right-title {
+    position: relative;
+    width: 194px;
+    height: 216px;
+    margin-top: 70px;
+    margin-right: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 25.7px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 40.3px;
+  }
+
+  .service-boxes .bottom-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .service-boxes .bottom-left-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150.79px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    background-color: #42afa8;
+    border-radius: 21px 0px 0px 21px;
+  }
+
+  .service-boxes .bottom-left-image {
+    position: relative;
+    width: 80px;
+    height: 80.5px;
+  }
+
+  .service-boxes .bottom-left-title {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 22px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 20.9px;
+  }
+
+  .service-boxes .bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .service-boxes .bottom-middle-item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 0px;
+    height: 150.79px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #7efe7c;
+  }
+
+  .service-boxes .bottom-middle-image {
+    position: relative;
+    width: 80.07px;
+    height: 100.79px;
+  }
+
+  .service-boxes .bottom-middle-title {
+    position: relative;
+    width: 150px;
+    height: 237px;
+    margin-top: 20px;
+    margin-right: 0px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 15.4px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 20.7px;
+  }
+
+  .service-boxes .bottom-right-item {
+    display: flex;
+    flex-direction: column;
+    height: 150.79px;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #aee6ff;
+    border-radius: 0px 21px 21px 0px;
+  }
+
+  .service-boxes .bottom-right-image {
+    position: relative;
+    width: 80px;
+    height: 80.79px;
+  }
+
+  .service-boxes .bottom-right-title {
+    position: relative;
+    width: 100px;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 20.8px;
+    letter-spacing: 0;
+    line-height: 20.1px;
+  }
+  .service-boxes .main-content {
+    display: flex;
+    gap: 0px;
+  }
+  .whatsapp_float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 110px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .best-agency-banner {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+  .banner-dog-and-cat .text-block {
+    width: 100vw;
+    height: 200.44px;
+    margin-left: 120px;
+  }
+}

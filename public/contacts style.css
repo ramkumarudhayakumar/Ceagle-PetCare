@@ -1,0 +1,2782 @@
+/* <!-- --------------------------------Header contact----------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  animation: body-ani 1s ease-in-out;
+  touch-action: pan-y;
+  overflow-x: hidden;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+@keyframes body-ani {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+section,
+main {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.image-slider-section {
+  padding: 15px 0;
+}
+
+.header-contact {
+  display: flex;
+  height: 47px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 90px;
+  background-color: #203059;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.header-contact .div {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.75px;
+  position: relative;
+  flex: 0 0 auto;
+  left: -161px;
+  gap: 10px;
+}
+
+.header-contact .phone-icon {
+  position: relative;
+  width: 12.84px;
+  height: 12.84px;
+  margin-top: -0.71px;
+  margin-bottom: -0.71px;
+  margin-left: -0.71px;
+}
+
+.header-contact .phone-number-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.75px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15.2px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  line-height: 39.7px;
+  white-space: nowrap;
+}
+
+.header-contact .mail-icon {
+  position: relative;
+  width: 16.17px;
+  height: 11.41px;
+}
+
+.header-contact .mail-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.75px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15.2px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  line-height: 39.7px;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.bars {
+  display: none;
+}
+/* <!-- --------------------------------Header contact----------------------------------- */
+/* ---------------------------Navbar--------------------------------------- */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 166px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1519px;
+  min-height: 44px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 0;
+  z-index: 999;
+}
+.nav-anchor {
+  text-decoration: none;
+  color: #1c3352;
+}
+.active {
+  color: #3eb3a0;
+}
+.navbar .whatsapp-image {
+  position: relative;
+  width: 141px;
+  height: 44px;
+}
+
+.navbar .div {
+  display: inline-flex;
+  height: 43px;
+  align-items: center;
+  gap: 105px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.navbar .contact-us-link {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #00ad8a;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.16px;
+  line-height: 41.8px;
+  white-space: nowrap;
+}
+
+.navbar .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c3352;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.16px;
+  line-height: 41.8px;
+  white-space: nowrap;
+}
+.navbar .contact-us-link:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  color: #1c3352;
+}
+.navbar .text-wrapper:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  color: #1c3352;
+}
+.navbar .contact-section {
+  display: flex;
+  width: 142px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #203059;
+  border-radius: 5px;
+}
+
+.navbar .call-us-text {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.14px;
+  line-height: 41.8px;
+  white-space: nowrap;
+}
+.call-us-anchor {
+  color: #fff;
+  text-decoration: none;
+}
+/* --------------------------------------Navbar------------------------------------ */
+
+/* ---------------------------------------Banner-image-------------------------------- */
+.banner-dog-and-cat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+  position: relative;
+  width: 100%;
+  min-width: 1519px;
+  min-height: 412.93px;
+  padding: 15px 0;
+}
+
+.banner-dog-and-cat .image-of-pets {
+  position: relative;
+  width: 579.52px;
+  height: 412.93px;
+  object-fit: cover;
+}
+
+.banner-dog-and-cat .text-block {
+  position: relative;
+  width: 556.48px;
+  height: 247.44px;
+}
+
+.banner-dog-and-cat .logo {
+  position: absolute;
+  width: auto;
+  height: 126px;
+  top: 0;
+  left: 76px;
+}
+
+.banner-dog-and-cat .title {
+  position: absolute;
+  width: 556px;
+  height: 63px;
+  top: 111px;
+  left: 0;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 29.7px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: 41.7px;
+}
+
+.banner-dog-and-cat .text-wrapper {
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: -0.09px;
+}
+
+.banner-dog-and-cat .span {
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #203059;
+  letter-spacing: -0.09px;
+}
+
+/* ---------------------------------------Banner-image-------------------------------- */
+
+/* -------------------------------------Contacts------------------------------------- */
+.element-boxes {
+  display: flex;
+  width: 1519px;
+  height: 292px;
+  align-items: center;
+  justify-content: center;
+  gap: 122px;
+  position: relative;
+}
+
+.element-boxes .call {
+  display: flex;
+  flex-direction: column;
+  width: 284.82px;
+  height: 205.99px;
+  align-items: center;
+  justify-content: center;
+  gap: -5.51px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 14.87px;
+  box-shadow: 0px -1px 17.1px #00000042;
+}
+
+.element-boxes .vector {
+  position: relative;
+  width: 46.21px;
+  height: 43.64px;
+}
+
+.element-boxes .numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-boxes .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.74px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #203059;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  line-height: 61.8px;
+}
+
+.element-boxes .div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #203059;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  line-height: 61.8px;
+}
+
+.element-boxes .location {
+  display: flex;
+  flex-direction: column;
+  width: 284.08px;
+  height: 205.99px;
+  align-items: center;
+  justify-content: center;
+  gap: 59.49px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 14.87px;
+  box-shadow: 0px -1px 17.1px #00000042;
+}
+
+.element-boxes .img {
+  position: relative;
+  width: 31.83px;
+  height: 43.13px;
+}
+
+.element-boxes .element-pet-care-banglore {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #203059;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  line-height: 29.7px;
+}
+
+.element-boxes .mail {
+  display: flex;
+  flex-direction: column;
+  width: 284.08px;
+  height: 205.99px;
+  align-items: center;
+  justify-content: center;
+  gap: 59.49px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 14.87px;
+  box-shadow: 0px -1px 17.1px #00000042;
+}
+
+/* -------------------------------------Contacts------------------------------------- */
+
+/* ----------------------------------Footer------------------------------------------------ */
+.section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.section .footer-wrapper {
+  background-color: #ffffff;
+  width: 1519px;
+  height: 711px;
+}
+
+.section .footer {
+  flex-direction: column;
+  width: 1519px;
+  align-items: flex-start;
+  top: 304px;
+  background-color: transparent;
+  display: flex;
+  position: relative;
+}
+
+.section .footer-text {
+  height: 407px;
+  align-items: center;
+  justify-content: center;
+  gap: 333px;
+  align-self: stretch;
+  width: 100%;
+  background-color: #203059;
+  display: flex;
+  position: relative;
+}
+
+.section .logo {
+  display: flex;
+  flex-direction: column;
+  width: 187px;
+  align-items: flex-end;
+  gap: 7px;
+  position: relative;
+}
+
+.section .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 52.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.section .div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20.7px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.section .quick-and-contact {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 80px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.section .quick-links {
+  display: flex;
+  flex-direction: column;
+  width: 234px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.section .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.section .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.section .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: white;
+  font-size: 22.7px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.section .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: white;
+  font-size: 22.7px;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+.section .contacts {
+  display: flex;
+  flex-direction: column;
+  width: 298px;
+  align-items: flex-start;
+  gap: 55px;
+  position: relative;
+}
+
+.section .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.section .call {
+  display: inline-flex;
+  align-items: center;
+  gap: 11.34px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.section .img {
+  position: relative;
+  width: 25.52px;
+  height: 25.52px;
+}
+
+.section .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.42px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: white;
+  font-size: 22.7px;
+  letter-spacing: 0;
+  line-height: 34px;
+  white-space: nowrap;
+}
+
+.section .mail {
+  display: flex;
+  align-items: center;
+  gap: 11.34px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.section .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.42px;
+  margin-right: -0.86px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: white;
+  font-size: 23.3px;
+  letter-spacing: 0;
+  line-height: 34.9px;
+  white-space: nowrap;
+}
+
+.section .text-wrapper-7 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 29.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.section .frame-3 {
+  position: relative;
+  width: 179.03px;
+  height: 15.77px;
+}
+
+.section .element {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  top: 0;
+  left: 0;
+}
+
+.section .element-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 15px;
+}
+
+.section .text-wrapper-8 {
+  position: absolute;
+  top: 1px;
+  left: 37px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.section .dog-with-text {
+  display: flex;
+  flex-direction: column;
+  width: 1519px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: -114px;
+  left: 0;
+}
+
+.section .text-img-container {
+  display: flex;
+  flex-direction: column;
+  width: 941px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.section .text-and-img {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 56px 16px 239px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #1c4b48;
+  border-radius: 119px;
+  box-shadow: 4.83px 1.61px 3.22px #00000040;
+}
+
+.section .p {
+  position: relative;
+  width: 679px;
+  margin-top: -0.31px;
+  margin-left: -16.5px;
+  margin-right: -16.5px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #f4f4f4;
+  font-size: 25.4px;
+  letter-spacing: 1.65px;
+  line-height: 39px;
+}
+
+.section .image {
+  position: absolute;
+  width: 216px;
+  height: 302px;
+  top: -190px;
+  left: 0;
+  object-fit: cover;
+}
+.section .dog-with-text .p-2 {
+  display: none;
+}
+/* -------------------------------------------Footer--------------------------------------- */
+@media screen and (max-width: 1200px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    min-width: 1000px;
+    min-height: 40px;
+  }
+  .navbar .whatsapp-image {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .navbar .div {
+    height: 40px;
+    gap: 80px;
+  }
+  .banner-dog-and-cat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    min-width: 1400px;
+    min-height: 350px;
+    padding: 15px 0;
+  }
+
+  .banner-dog-and-cat .image-of-pets {
+    position: relative;
+    width: 579.52px;
+    height: 412.93px;
+    object-fit: cover;
+  }
+
+  .banner-dog-and-cat .text-block {
+    position: relative;
+    width: 450px;
+    height: 247.44px;
+  }
+
+  .banner-dog-and-cat .logo {
+    position: absolute;
+    width: auto;
+    height: 126px;
+    top: 0;
+    left: -10px;
+  }
+
+  .banner-dog-and-cat .title {
+    position: absolute;
+    width: 450px;
+    height: 63px;
+    top: 111px;
+    left: -25px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 26px;
+    text-align: start;
+    letter-spacing: -0.3px;
+    line-height: 41.7px;
+  }
+  .section .footer-wrapper {
+    background-color: #ffffff;
+    width: 1500px;
+    height: 600px;
+  }
+  .section .footer {
+    flex-direction: column;
+    width: 1519px;
+    align-items: flex-start;
+    top: 304px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+  }
+
+  .section .footer-text {
+    height: 407px;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    position: relative;
+  }
+
+  .section .logo {
+    display: flex;
+    flex-direction: column;
+    width: 167px;
+    align-items: flex-end;
+    gap: 7px;
+    position: relative;
+  }
+
+  .section .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 45.9px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18.7px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 80px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .quick-links {
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+
+  .section .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40.4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 22.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+
+  .section .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 22.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+
+  .section .contacts {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    align-items: flex-start;
+    gap: 55px;
+    position: relative;
+  }
+
+  .section .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .call {
+    display: inline-flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .img {
+    position: relative;
+    width: 25.52px;
+    height: 25.52px;
+  }
+
+  .section .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.42px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 22.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+
+  .section .mail {
+    display: flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.42px;
+    margin-right: -0.86px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 23.3px;
+    letter-spacing: 0;
+    line-height: 34.9px;
+    white-space: nowrap;
+  }
+
+  .section .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 29.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .frame-3 {
+    position: relative;
+    width: 179.03px;
+    height: 15.77px;
+  }
+
+  .section .element {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    top: 0;
+    left: 0;
+  }
+
+  .section .element-2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 15px;
+  }
+
+  .section .text-wrapper-8 {
+    position: absolute;
+    top: 1px;
+    left: 37px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .section .dog-with-text {
+    display: flex;
+    flex-direction: column;
+    width: 1519px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: -114px;
+    left: 0;
+  }
+
+  .section .text-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 941px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .text-and-img {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 56px 16px 239px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #1c4b48;
+    border-radius: 119px;
+    box-shadow: 4.83px 1.61px 3.22px #00000040;
+  }
+
+  .section .p {
+    position: relative;
+    width: 679px;
+    margin-top: -0.31px;
+    margin-left: -16.5px;
+    margin-right: -16.5px;
+    font-family: "Rubik-Regular", Helvetica;
+    font-weight: 400;
+    color: #f4f4f4;
+    font-size: 25.4px;
+    letter-spacing: 1.65px;
+    line-height: 39px;
+  }
+
+  .section .image {
+    position: absolute;
+    width: 216px;
+    height: 302px;
+    top: -190px;
+    left: 0;
+    object-fit: cover;
+  }
+  .element-boxes {
+    display: flex;
+    width: 100vw;
+    height: 292px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+  }
+
+  .element-boxes .call {
+    display: flex;
+    flex-direction: column;
+    width: 250.82px;
+    height: 175.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .vector {
+    position: relative;
+    width: 46.21px;
+    height: 43.64px;
+  }
+
+  .element-boxes .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .element-boxes .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -0.74px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 50.8px;
+  }
+
+  .element-boxes .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 50.8px;
+  }
+
+  .element-boxes .location {
+    display: flex;
+    flex-direction: column;
+    width: 250.82px;
+    height: 175.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .img {
+    position: relative;
+    width: 31.83px;
+    height: 43.13px;
+  }
+
+  .element-boxes .element-pet-care-banglore {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 29.7px;
+  }
+
+  .element-boxes .mail {
+    display: flex;
+    flex-direction: column;
+    width: 250.82px;
+    height: 175.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    min-width: 800px;
+    min-height: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0;
+  }
+  .navbar .whatsapp-image {
+    position: relative;
+    width: 100px;
+    height: 35px;
+  }
+  .navbar .div {
+    display: inline-flex;
+    align-items: flex-end;
+    height: 40px;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  .navbar .contact-section {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #203059;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .navbar .call-us-text {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+  .header-contact {
+    display: flex;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: #203059;
+    width: 150%;
+    right: 0;
+    top: 0;
+    z-index: 999;
+  }
+  .banner-dog-and-cat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    position: relative;
+    width: 50%;
+    min-width: 400px;
+    min-height: 300px;
+    padding: 15px 10px 0;
+  }
+
+  .banner-dog-and-cat .image-of-pets {
+    position: relative;
+    width: 400.52px;
+    height: 300.93px;
+    object-fit: fill;
+  }
+
+  .banner-dog-and-cat .text-block {
+    position: relative;
+    width: 350px;
+    height: 200.44px;
+  }
+
+  .banner-dog-and-cat .logo {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 0;
+    left: 20px;
+  }
+
+  .banner-dog-and-cat .title {
+    position: absolute;
+    width: 450px;
+    height: 63px;
+    top: 111px;
+    left: 20px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    text-align: start;
+    letter-spacing: -0.3px;
+    line-height: 41.7px;
+  }
+  .dog-banner {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    background-color: #f2edff;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 102vw;
+  }
+  .section .footer-wrapper {
+    background-color: #ffffff;
+    width: 102vw;
+    height: 600px;
+  }
+  .section .footer {
+    flex-direction: column;
+    width: 102vw;
+    align-items: flex-start;
+    top: 304px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+  }
+
+  .section .footer-text {
+    height: 407px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    position: relative;
+  }
+
+  .section .logo {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: flex-end;
+    gap: 7px;
+    position: relative;
+    left: 20px;
+  }
+
+  .section .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 40.9px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16.7px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 60px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .quick-links {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+
+  .section .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 38.4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+
+  .section .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+
+  .section .contacts {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-start;
+    gap: 55px;
+    position: relative;
+    margin-top: 3px;
+  }
+
+  .section .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .call {
+    display: inline-flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .img {
+    position: relative;
+    width: 25.52px;
+    height: 25.52px;
+  }
+
+  .section .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.42px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+
+  .section .mail {
+    display: flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.42px;
+    margin-right: -0.86px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: 34.9px;
+    white-space: nowrap;
+  }
+
+  .section .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .element {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    top: 0;
+    left: 0;
+  }
+
+  .section .element-2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 15px;
+  }
+
+  .section .text-wrapper-8 {
+    position: absolute;
+    top: 1px;
+    left: 37px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .section .dog-with-text {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: -114px;
+    left: 0;
+  }
+
+  .section .text-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .text-and-img {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 56px 16px 239px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #1c4b48;
+    border-radius: 119px;
+    box-shadow: 4.83px 1.61px 3.22px #00000040;
+  }
+
+  .section .p {
+    position: relative;
+    width: 679px;
+    margin-top: -0.31px;
+    margin-left: -16.5px;
+    margin-right: -16.5px;
+    font-family: "Rubik-Regular", Helvetica;
+    font-weight: 400;
+    color: #f4f4f4;
+    font-size: 20.4px;
+    letter-spacing: 1.65px;
+    line-height: 39px;
+  }
+
+  .section .image {
+    position: absolute;
+    width: 216px;
+    height: 302px;
+    top: -190px;
+    left: 0;
+    object-fit: cover;
+  }
+  .whatsapp_float {
+    position: fixed;
+    bottom: 40px;
+    right: 450px;
+  }
+  .element-boxes {
+    display: flex;
+    width: 100vw;
+    height: 292px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+  }
+
+  .element-boxes .call {
+    display: flex;
+    flex-direction: column;
+    width: 200.82px;
+    height: 155.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .vector {
+    position: relative;
+    width: 46.21px;
+    height: 43.64px;
+  }
+
+  .element-boxes .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .element-boxes .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -0.74px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 50.8px;
+  }
+
+  .element-boxes .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 50.8px;
+  }
+
+  .element-boxes .location {
+    display: flex;
+    flex-direction: column;
+    width: 200.82px;
+    height: 155.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .img {
+    position: relative;
+    width: 31.83px;
+    height: 43.13px;
+  }
+
+  .element-boxes .element-pet-care-banglore {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 29.7px;
+  }
+
+  .element-boxes .mail {
+    display: flex;
+    flex-direction: column;
+    width: 200.82px;
+    height: 155.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar .contact-section {
+    margin-right: 50px;
+  }
+  .banner-dog-and-cat {
+    gap: 0px;
+  }
+
+  .banner-dog-and-cat .image-of-pets {
+    width: 400.52px;
+    height: 300.93px;
+    object-fit: fill;
+  }
+
+  .banner-dog-and-cat .text-block {
+    width: 350px;
+    height: 200.44px;
+  }
+
+  .banner-dog-and-cat .logo {
+    width: 200px;
+    height: 50px;
+  }
+
+  .banner-dog-and-cat .title {
+    width: 350px;
+    height: 63px;
+    top: 111px;
+    left: 10px;
+    font-size: 15px;
+  }
+
+  .service-boxes .bottom-left-item {
+    width: 280px;
+    height: 180.79px;
+    gap: 0px;
+  }
+
+  .service-boxes .bottom-left-title {
+    position: relative;
+    width: 80px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #203059;
+    font-size: 30px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 53.9px;
+  }
+  .service-boxes .bottom-middle-item {
+    width: 230px;
+    gap: 50px;
+  }
+  .service-boxes .bottom-middle-title {
+    width: 100px;
+    height: 237px;
+    margin-top: 60px;
+    margin-right: -30px;
+    font-size: 22.4px;
+    text-align: center;
+  }
+  .frame .div {
+    gap: 30px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 252.43px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 19px;
+  }
+
+  .frame .ensuring-pets-img {
+    position: relative;
+    width: 100.43px;
+    height: 100.43px;
+    margin-top: -0.19px;
+  }
+  .frame .trust-pet-care-img {
+    position: relative;
+    width: 100.43px;
+    height: 100.43px;
+  }
+
+  .frame .reliable-and-safe {
+    position: relative;
+    width: 100.43px;
+    height: 100.43px;
+    object-fit: cover;
+  }
+  .frame .title {
+    font-size: 14px;
+  }
+  .frame .description {
+    font-size: 8px;
+  }
+  .dog-banner {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    background-color: #f2edff;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .dog-banner .dog-banner-heading {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: flex-start;
+    gap: 0px;
+    position: relative;
+  }
+
+  .dog-banner .dog-banner-texts {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 130px;
+  }
+
+  .dog-banner .div {
+    position: absolute;
+    width: 615px;
+    top: -1px;
+    left: 180px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 30px;
+  }
+  .dog-banner .dog-banner-icon {
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    top: 60px;
+    left: 360px;
+  }
+
+  .dog-banner .dog-banner-content {
+    position: relative;
+    width: 300px;
+    margin-left: 180px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 22.2px;
+  }
+
+  .dog-banner .dog-banner-IMG {
+    position: relative;
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 100px;
+  }
+  .gallery .rectangle {
+    position: relative;
+    width: 170px;
+    height: 120px;
+  }
+
+  .gallery .img {
+    position: relative;
+    width: 170px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .element-boxes {
+    display: flex;
+    width: 100vw;
+    height: 292px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+  }
+
+  .element-boxes .call {
+    display: flex;
+    flex-direction: column;
+    width: 180.82px;
+    height: 130.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .vector {
+    position: relative;
+    width: 20.83px;
+    height: 30.13px;
+  }
+
+  .element-boxes .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .element-boxes .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -0.74px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 40.8px;
+  }
+
+  .element-boxes .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 40.8px;
+  }
+
+  .element-boxes .location {
+    display: flex;
+    flex-direction: column;
+    width: 180.82px;
+    height: 130.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .img {
+    position: relative;
+    width: 20.83px;
+    height: 30.13px;
+  }
+
+  .element-boxes .element-pet-care-banglore {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 20.7px;
+  }
+
+  .element-boxes .mail {
+    display: flex;
+    flex-direction: column;
+    width: 180.82px;
+    height: 130.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+  .element-boxes .mail-2 {
+    width: 20.83px;
+    height: 30.13px;
+  }
+  .element-boxes .text-wrapper-2 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 567px) {
+  .bars {
+    width: 30px;
+    height: 20px;
+    color: #fff;
+    display: block;
+  }
+  .active {
+    color: #fff;
+  }
+  .navbar {
+    display: none;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 0px;
+    position: relative;
+    width: 100%;
+    min-width: 0px;
+    min-height: 200px;
+    z-index: 999;
+    padding: 20px 0;
+    background-color: #3eb3a0;
+    transform-origin: top;
+    animation: nav 0.5s ease-in-out;
+    transition: 0.5s;
+  }
+  @keyframes nav {
+    from {
+      transform: scaleY(0);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
+  .navactive {
+    display: flex;
+    transition: 0.5s;
+  }
+  .navbar .whatsapp-image {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .navbar .div {
+    display: flex;
+    flex-direction: column;
+    height: 43px;
+    align-items: center;
+    gap: 0px;
+    flex: 0 0 auto;
+    background-color: #3eb3a0;
+  }
+  .navbar .home-link {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1c3352;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+
+  .navbar .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.5px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #1c3352;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+  .navbar .contact-section {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #203059;
+    border-radius: 5px;
+    margin-right: 0px;
+  }
+
+  .navbar .call-us-text {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    line-height: 41.8px;
+    white-space: nowrap;
+  }
+  .banner-dog-and-cat {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    padding: 50px 0 15px 0;
+  }
+  .banner-dog-and-cat .image-of-pets {
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    object-fit: fill;
+  }
+  .banner-dog-and-cat .text-block {
+    width: 350px;
+    height: 200.44px;
+    margin-left: 100px;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding: 30px 0 10px 0;
+  }
+
+  .frame .header-wrapper {
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .frame .header {
+    position: relative;
+    width: fit-content;
+    /* margin-top: -1px; */
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30.5px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 0;
+    white-space: nowrap;
+  }
+
+  .frame .div {
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 279px;
+    height: 252.43px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 19px;
+  }
+
+  .frame .ensuring-pets-img {
+    position: relative;
+    width: 80.8px;
+    height: 80.8px;
+    margin-top: -0.19px;
+  }
+
+  .frame .div-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .frame .title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #42aea7;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20.6px;
+    margin-bottom: 10px;
+  }
+
+  .frame .description {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 10.6px;
+  }
+
+  .frame .trust-pet-care-img {
+    position: relative;
+    width: 80.8px;
+    height: 80.8px;
+  }
+
+  .frame .reliable-and-safe {
+    position: relative;
+    width: 80.8px;
+    height: 80.8px;
+    object-fit: cover;
+  }
+  .header-contact {
+    display: flex;
+    height: 47px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: #203059;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .header-contact .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 4.75px;
+    position: relative;
+    flex: 0 0 auto;
+    left: 0px;
+    gap: 10px;
+  }
+
+  .header-contact .phone-icon {
+    position: relative;
+    width: 10.84px;
+    height: 10.84px;
+    margin-top: -0.71px;
+    margin-bottom: -0.71px;
+    margin-left: -0.71px;
+  }
+
+  .header-contact .phone-number-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10.2px;
+    text-align: center;
+    letter-spacing: -0.15px;
+    line-height: 39.7px;
+    white-space: nowrap;
+  }
+
+  .header-contact .mail-icon {
+    position: relative;
+    width: 10.84px;
+    height: 10.84px;
+  }
+
+  .header-contact .mail-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10.2px;
+    text-align: center;
+    letter-spacing: -0.15px;
+    line-height: 39.7px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .service-boxes .vector {
+    position: relative;
+    width: 21.97px;
+    height: 22.63px;
+  }
+
+  .service-boxes .text-wrapper {
+    font-size: 28.6px;
+  }
+
+  .service-boxes .img {
+    width: 25.41px;
+    height: 23.24px;
+  }
+
+  .service-boxes .header-subtitle {
+    font-size: 22.8px;
+  }
+  .swiper-slide img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+    border: 3px solid #4361ee;
+    outline: 2px solid white;
+  }
+
+  .swiper-slide h3 {
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .swiper-slide p {
+    font-size: 0.6rem;
+    padding: 0 5px;
+  }
+  .section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 102vw;
+  }
+  .section .footer-wrapper {
+    background-color: #ffffff;
+    width: 102vw;
+    height: 100px;
+  }
+  .section .footer {
+    flex-direction: column;
+    width: 102vw;
+    align-items: flex-start;
+    top: 120px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+  }
+
+  .section .footer-text {
+    height: 500px;
+    padding-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 70px;
+    align-self: center;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    position: relative;
+  }
+
+  .section .logo {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    gap: 7px;
+    position: relative;
+    left: -20px;
+  }
+
+  .section .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 40.9px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16.7px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .quick-links {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: flex-start;
+    gap: 0px;
+    position: relative;
+  }
+
+  .section .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25.4px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 12.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+
+  .section .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 12.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+
+  .section .contacts {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    margin-top: 1.5px;
+  }
+
+  .section .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .section .frame-3 {
+    margin-top: 10px;
+  }
+
+  .section .call {
+    display: inline-flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .section .img {
+    position: relative;
+    width: 20.52px;
+    height: 20.52px;
+  }
+
+  .section .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.42px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 12.7px;
+    letter-spacing: 0;
+    line-height: 34px;
+    white-space: nowrap;
+  }
+
+  .section .mail {
+    display: flex;
+    align-items: center;
+    gap: 11.34px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .section .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.42px;
+    margin-right: -0.86px;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 12.7px;
+    letter-spacing: 0;
+    line-height: 34.9px;
+    white-space: nowrap;
+  }
+
+  .section .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12.7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .section .element {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    top: 0;
+    left: 0;
+  }
+
+  .section .element-2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 15px;
+  }
+
+  .section .text-wrapper-8 {
+    position: absolute;
+    top: 1px;
+    left: 37px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12.7px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .section .dog-with-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: absolute;
+    top: -80px;
+    left: -60px;
+  }
+  .section .dog-with-text .text-img-container {
+    height: 200px;
+    width: 100px;
+  }
+  .section .dog-with-text .p {
+    font-size: 10px;
+    width: 200px;
+    line-height: 15px;
+    margin-right: 100px;
+    display: none;
+  }
+  .section .dog-with-text .p-2 {
+    margin-right: 150px;
+    color: #fff;
+    display: block;
+  }
+  .section .text-and-img {
+    height: 100px;
+  }
+  .section .dog-with-text .image {
+    width: 80px;
+    height: 100px;
+    margin-top: 140px;
+  }
+  .swiper-container {
+    width: 80vw;
+  }
+  .whatsapp_float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 150px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .element-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    margin: 50px 0 80px 0;
+  }
+
+  .element-boxes .call {
+    display: flex;
+    flex-direction: column;
+    width: 180.82px;
+    height: 130.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .vector {
+    position: relative;
+    width: 20.83px;
+    height: 30.13px;
+  }
+
+  .element-boxes .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .element-boxes .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -0.74px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 40.8px;
+  }
+
+  .element-boxes .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 40.8px;
+  }
+
+  .element-boxes .location {
+    display: flex;
+    flex-direction: column;
+    width: 180.82px;
+    height: 130.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+
+  .element-boxes .img {
+    position: relative;
+    width: 20.83px;
+    height: 30.13px;
+  }
+
+  .element-boxes .element-pet-care-banglore {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #203059;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    line-height: 20.7px;
+  }
+
+  .element-boxes .mail {
+    display: flex;
+    flex-direction: column;
+    width: 180.82px;
+    height: 130.99px;
+    align-items: center;
+    justify-content: center;
+    gap: 25.49px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 14.87px;
+    box-shadow: 0px -1px 17.1px #00000042;
+  }
+  .element-boxes .mail-2 {
+    width: 20.83px;
+    height: 30.13px;
+  }
+  .element-boxes .text-wrapper-2 {
+    font-size: 14px;
+  }
+}
