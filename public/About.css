@@ -112,7 +112,6 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  min-width: 1519px;
   min-height: 44px;
   background-color: rgb(255, 255, 255);
   padding: 15px 0;
@@ -120,6 +119,9 @@ main {
 }
 .nav-anchor {
   text-decoration: none;
+  color: #1c3352;
+}
+.nav-anchor:hover {
   color: #1c3352;
 }
 .active {
@@ -138,25 +140,6 @@ main {
   gap: 105px;
   position: relative;
   flex: 0 0 auto;
-}
-
-.navbar .home-link {
-  position: relative;
-  width: fit-content;
-  margin-top: -0.5px;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #3eb3a0;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: -0.16px;
-  line-height: 41.8px;
-  white-space: nowrap;
-}
-.navbar .home-link:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-  color: #1c3352;
 }
 .navbar .text-wrapper:hover {
   transform: scale(1.1);
@@ -179,8 +162,8 @@ main {
 
 .navbar .contact-section {
   display: flex;
-  width: 142px;
-  height: 37px;
+  width: 80px;
+  height: 10px;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -439,13 +422,13 @@ main {
 
 .section .footer-wrapper {
   background-color: #ffffff;
-  width: 1519px;
+  width: 100vw;
   height: 711px;
 }
 
 .section .footer {
   flex-direction: column;
-  width: 1519px;
+  width: 100%;
   align-items: flex-start;
   top: 304px;
   background-color: transparent;
@@ -505,9 +488,11 @@ main {
   gap: 80px;
   position: relative;
   flex: 0 0 auto;
+  margin-top: 50px;
 }
 
-.section .quick-links {
+.section .quick-links,
+.section .contacts {
   display: flex;
   flex-direction: column;
   width: 234px;
@@ -519,11 +504,10 @@ main {
 .section .text-wrapper-2 {
   position: relative;
   align-self: stretch;
-  margin-top: -1px;
   font-family: "Poppins-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 40.4px;
+  font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -550,38 +534,6 @@ main {
   letter-spacing: 0;
   line-height: 34px;
 }
-
-.section .text-wrapper-4 {
-  position: relative;
-  align-self: stretch;
-  font-family: "DM Sans-Medium", Helvetica;
-  font-weight: 500;
-  color: white;
-  font-size: 22.7px;
-  letter-spacing: 0;
-  line-height: 34px;
-}
-
-.section .contacts {
-  display: flex;
-  flex-direction: column;
-  width: 298px;
-  align-items: flex-start;
-  gap: 55px;
-  position: relative;
-}
-
-.section .frame-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 19px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
 .section .call {
   display: inline-flex;
   align-items: center;
@@ -591,22 +543,8 @@ main {
 }
 
 .section .img {
-  position: relative;
-  width: 25.52px;
-  height: 25.52px;
-}
-
-.section .text-wrapper-5 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.42px;
-  font-family: "DM Sans-Medium", Helvetica;
-  font-weight: 500;
-  color: white;
-  font-size: 22.7px;
-  letter-spacing: 0;
-  line-height: 34px;
-  white-space: nowrap;
+  width: 20px;
+  height: 20px;
 }
 
 .section .mail {
@@ -618,68 +556,20 @@ main {
   width: 100%;
   flex: 0 0 auto;
 }
-
-.section .text-wrapper-6 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.42px;
-  margin-right: -0.86px;
-  font-family: "DM Sans-Medium", Helvetica;
-  font-weight: 500;
-  color: white;
-  font-size: 23.3px;
-  letter-spacing: 0;
-  line-height: 34.9px;
-  white-space: nowrap;
-}
-
-.section .text-wrapper-7 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: "Poppins-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 29.2px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .section .frame-3 {
-  position: relative;
-  width: 179.03px;
-  height: 15.77px;
+  /* width: 179.03px;
+  height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .section .element {
-  position: absolute;
-  width: 8px;
-  height: 16px;
-  top: 0;
-  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
 }
-
-.section .element-2 {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 0;
-  left: 15px;
-}
-
-.section .text-wrapper-8 {
-  position: absolute;
-  top: 1px;
-  left: 37px;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18.7px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
 .section .dog-with-text {
   display: flex;
   flex-direction: column;
@@ -689,13 +579,13 @@ main {
   gap: 10px;
   position: absolute;
   top: -114px;
-  left: 250px;
+  left: -100px;
 }
 
 .section .text-img-container {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 50%;
   align-items: flex-start;
   position: relative;
   flex: 0 0 auto;
@@ -707,10 +597,10 @@ main {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 16px 20px 16px 239px;
+  padding: 16px 56px 16px 239px;
   position: relative;
   align-self: stretch;
-  width: 50%;
+  width: 100%;
   background-color: #1c4b48;
   border-radius: 119px;
   box-shadow: 4.83px 1.61px 3.22px #00000040;
@@ -764,265 +654,34 @@ main {
     height: 40px;
     gap: 80px;
   }
-  .section .footer-wrapper {
-    background-color: #ffffff;
-    width: 100vw;
-    height: 600px;
-  }
-  .section .footer {
-    flex-direction: column;
-    width: 100vw;
-    align-items: flex-start;
-    top: 304px;
-    background-color: transparent;
-    display: flex;
-    position: relative;
-  }
-
+  /* ----------------------------------Footer------------------------------------------------ */
   .section .footer-text {
     height: 407px;
     align-items: center;
     justify-content: center;
-    gap: 170px;
+    gap: 100px;
     align-self: stretch;
     width: 100%;
     background-color: #203059;
     display: flex;
     position: relative;
   }
-
-  .section .logo {
-    display: flex;
-    flex-direction: column;
-    width: 167px;
-    align-items: flex-end;
-    gap: 7px;
-    position: relative;
-  }
-
-  .section .text-wrapper {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 45.9px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .div {
-    position: relative;
-    align-self: stretch;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18.7px;
-    text-align: right;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .quick-and-contact {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 80px;
-    position: relative;
-    flex: 0 0 auto;
-    margin-top: 50px;
-  }
-
-  .section .quick-links {
-    display: flex;
-    flex-direction: column;
-    width: 234px;
-    align-items: flex-start;
-    gap: 24px;
-    position: relative;
-  }
-
-  .section .text-wrapper-2 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 40.4px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .frame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 13px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .section .text-wrapper-3 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 22.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .text-wrapper-4 {
-    position: relative;
-    align-self: stretch;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 22.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 298px;
-    align-items: flex-start;
-    gap: 55px;
-    position: relative;
-  }
-
-  .section .frame-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 19px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .section .call {
-    display: inline-flex;
-    align-items: center;
-    gap: 11.34px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .section .img {
-    position: relative;
-    width: 25.52px;
-    height: 25.52px;
-  }
-
-  .section .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 22.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-    white-space: nowrap;
-  }
-
-  .section .mail {
-    display: flex;
-    align-items: center;
-    gap: 11.34px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .section .text-wrapper-6 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    margin-right: -0.86px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 23.3px;
-    letter-spacing: 0;
-    line-height: 34.9px;
-    white-space: nowrap;
-  }
-
-  .section .text-wrapper-7 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 29.2px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .frame-3 {
-    position: relative;
-    width: 179.03px;
-    height: 15.77px;
-  }
-
-  .section .element {
-    position: absolute;
-    width: 8px;
-    height: 16px;
-    top: 0;
-    left: 0;
-  }
-
-  .section .element-2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 15px;
-  }
-
-  .section .text-wrapper-8 {
-    position: absolute;
-    top: 1px;
-    left: 37px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-
   .section .dog-with-text {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     gap: 10px;
     position: absolute;
     top: -114px;
-    left: -130px;
+    left: -150px;
   }
 
   .section .text-img-container {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 65%;
     align-items: flex-start;
     position: relative;
     flex: 0 0 auto;
@@ -1030,7 +689,7 @@ main {
 
   .section .text-and-img {
     display: flex;
-    height: 150px;
+    height: 125px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -1065,6 +724,7 @@ main {
     left: 0;
     object-fit: cover;
   }
+  /* ----------------------------------Footer------------------------------------------------ */
   .about-us-col1 {
     width: 40%;
     display: grid;
@@ -1303,7 +963,7 @@ main {
   .navbar .contact-section {
     display: flex;
     width: 80px;
-    height: 20px;
+    height: 12px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -1338,21 +998,24 @@ main {
     top: 0;
     z-index: 999;
   }
+  /* ----------------------------------Footer------------------------------------------------ */
   .section {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
   }
+
   .section .footer-wrapper {
     background-color: #ffffff;
     width: 100vw;
-    height: 600px;
+    height: 711px;
   }
+
   .section .footer {
     flex-direction: column;
-    width: 102vw;
+    width: 100vw;
     align-items: flex-start;
     top: 304px;
     background-color: transparent;
@@ -1363,24 +1026,22 @@ main {
   .section .footer-text {
     height: 407px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 80px;
     align-self: stretch;
     width: 100%;
     background-color: #203059;
     display: flex;
     position: relative;
-    padding-top: 20px;
   }
 
   .section .logo {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 187px;
     align-items: flex-end;
     gap: 7px;
     position: relative;
-    left: 20px;
   }
 
   .section .text-wrapper {
@@ -1390,7 +1051,7 @@ main {
     font-family: "Montserrat-SemiBold", Helvetica;
     font-weight: 600;
     color: #ffffff;
-    font-size: 40.9px;
+    font-size: 45px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -1402,7 +1063,7 @@ main {
     font-family: "Montserrat-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 16.7px;
+    font-size: 17px;
     text-align: right;
     letter-spacing: 0;
     line-height: normal;
@@ -1414,12 +1075,14 @@ main {
     gap: 60px;
     position: relative;
     flex: 0 0 auto;
+    margin-top: 50px;
   }
 
-  .section .quick-links {
+  .section .quick-links,
+  .section .contacts {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 234px;
     align-items: flex-start;
     gap: 24px;
     position: relative;
@@ -1432,7 +1095,7 @@ main {
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
-    font-size: 38.4px;
+    font-size: 35px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -1455,43 +1118,10 @@ main {
     font-family: "DM Sans-Medium", Helvetica;
     font-weight: 500;
     color: white;
-    font-size: 18.7px;
+    font-size: 18px;
     letter-spacing: 0;
     line-height: 34px;
   }
-
-  .section .text-wrapper-4 {
-    position: relative;
-    align-self: stretch;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    align-items: flex-start;
-    gap: 55px;
-    position: relative;
-    margin-top: 3px;
-  }
-
-  .section .frame-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 19px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
   .section .call {
     display: inline-flex;
     align-items: center;
@@ -1501,22 +1131,8 @@ main {
   }
 
   .section .img {
-    position: relative;
-    width: 25.52px;
-    height: 25.52px;
-  }
-
-  .section .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-    white-space: nowrap;
+    width: 20px;
+    height: 20px;
   }
 
   .section .mail {
@@ -1528,60 +1144,20 @@ main {
     width: 100%;
     flex: 0 0 auto;
   }
-
-  .section .text-wrapper-6 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    margin-right: -0.86px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: 34.9px;
-    white-space: nowrap;
-  }
-
-  .section .text-wrapper-7 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: normal;
+  .section .frame-3 {
+    /* width: 179.03px;
+height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
   .section .element {
-    position: absolute;
-    width: 8px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     top: 0;
     left: 0;
-  }
-
-  .section .element-2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 15px;
-  }
-
-  .section .text-wrapper-8 {
-    position: absolute;
-    top: 1px;
-    left: 37px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
   }
 
   .section .dog-with-text {
@@ -1593,13 +1169,13 @@ main {
     gap: 10px;
     position: absolute;
     top: -114px;
-    left: -140px;
+    left: -148px;
   }
 
   .section .text-img-container {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     align-items: center;
     position: relative;
     flex: 0 0 auto;
@@ -1607,7 +1183,7 @@ main {
 
   .section .text-and-img {
     display: flex;
-    height: 150px;
+    height: 125px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -1816,7 +1392,7 @@ main {
 }
 @media screen and (max-width: 750px) {
   .navbar .contact-section {
-    margin-right: 100px;
+    margin-right: 50px;
   }
   /*-- -------------------------------About banner------------------------------------------ --*/
   .about-banner {
@@ -1876,6 +1452,25 @@ main {
     position: absolute;
   }
   /*-- -------------------------------About banner------------------------------------------ --*/
+  .section .footer-text {
+    height: 407px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    align-self: stretch;
+    width: 100%;
+    background-color: #203059;
+    display: flex;
+    position: relative;
+  }
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: 50px;
+  }
 }
 @media (max-width: 567px) {
   .bars {
@@ -1962,7 +1557,7 @@ main {
   .navbar .contact-section {
     display: flex;
     width: 60px;
-    height: 15px;
+    height: 12px;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -1970,7 +1565,7 @@ main {
     position: relative;
     background-color: #203059;
     border-radius: 5px;
-    margin-right: 15px;
+    margin-right: 0px;
   }
 
   .navbar .call-us-text {
@@ -2053,50 +1648,53 @@ main {
     border: none;
     padding: 0;
   }
+  /* ----------------------------------Footer------------------------------------------------ */
   .section {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
   }
+
   .section .footer-wrapper {
     background-color: #ffffff;
     width: 100vw;
-    height: 100px;
+    height: auto;
   }
+
   .section .footer {
     flex-direction: column;
     width: 100vw;
     align-items: flex-start;
-    top: 120px;
+    top: 100px;
     background-color: transparent;
     display: flex;
     position: relative;
   }
 
   .section .footer-text {
-    height: 500px;
-    padding-top: 50px;
+    height: auto;
     align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 70px;
-    align-self: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 50px 30px 0;
+    align-self: stretch;
     width: 100%;
     background-color: #203059;
     display: flex;
-    position: relative;
+    flex-direction: column;
   }
 
   .section .logo {
     display: flex;
     flex-direction: column;
-    width: 150px;
-    align-items: center;
+    width: 120px;
+    align-items: flex-end;
     gap: 7px;
     position: relative;
-    left: -20px;
   }
 
   .section .text-wrapper {
@@ -2106,7 +1704,7 @@ main {
     font-family: "Montserrat-SemiBold", Helvetica;
     font-weight: 600;
     color: #ffffff;
-    font-size: 40.9px;
+    font-size: 35px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -2118,7 +1716,7 @@ main {
     font-family: "Montserrat-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 16.7px;
+    font-size: 12px;
     text-align: right;
     letter-spacing: 0;
     line-height: normal;
@@ -2127,12 +1725,14 @@ main {
   .section .quick-and-contact {
     display: inline-flex;
     align-items: flex-start;
-    gap: 0px;
+    gap: 20px;
     position: relative;
     flex: 0 0 auto;
+    margin-top: 50px;
   }
 
-  .section .quick-links {
+  .section .quick-links,
+  .section .contacts {
     display: flex;
     flex-direction: column;
     width: 150px;
@@ -2148,7 +1748,7 @@ main {
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
-    font-size: 25.4px;
+    font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -2157,7 +1757,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 13px;
+    gap: 5px;
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -2171,46 +1771,10 @@ main {
     font-family: "DM Sans-Medium", Helvetica;
     font-weight: 500;
     color: white;
-    font-size: 12.7px;
+    font-size: 12px;
     letter-spacing: 0;
     line-height: 34px;
   }
-
-  .section .text-wrapper-4 {
-    position: relative;
-    align-self: stretch;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    align-items: flex-start;
-    gap: 30px;
-    position: relative;
-    margin-top: 1.5px;
-  }
-
-  .section .frame-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 19px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  .section .frame-3 {
-    margin-top: 10px;
-  }
-
   .section .call {
     display: inline-flex;
     align-items: center;
@@ -2220,22 +1784,8 @@ main {
   }
 
   .section .img {
-    position: relative;
-    width: 20.52px;
-    height: 20.52px;
-  }
-
-  .section .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-    white-space: nowrap;
+    width: 12px;
+    height: 12px;
   }
 
   .section .mail {
@@ -2247,62 +1797,22 @@ main {
     width: 100%;
     flex: 0 0 auto;
   }
-
-  .section .text-wrapper-6 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    margin-right: -0.86px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: 34.9px;
-    white-space: nowrap;
-  }
-
-  .section .text-wrapper-7 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: normal;
+  .section .frame-3 {
+    /* width: 179.03px;
+height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
   }
 
   .section .element {
-    position: absolute;
-    width: 8px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     top: 0;
     left: 0;
+    margin-bottom: 7px;
   }
-
-  .section .element-2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 15px;
-  }
-
-  .section .text-wrapper-8 {
-    position: absolute;
-    top: 1px;
-    left: 37px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-
   .section .dog-with-text {
     display: flex;
     flex-direction: column;
@@ -2311,35 +1821,16 @@ main {
     justify-content: center;
     gap: 0px;
     position: absolute;
-    top: -100px;
+    top: -80px;
     left: -150px;
   }
-  .section .text-img-container {
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    align-items: center;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .section .text-and-img {
-    display: flex;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 16px 56px 16px 239px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    background-color: #1c4b48;
-    border-radius: 119px;
-    box-shadow: 4.83px 1.61px 3.22px #00000040;
+  .section .dog-with-text .text-img-container {
+    height: 100px;
+    width: 0;
   }
   .section .dog-with-text .p {
     font-size: 10px;
-    width: 100px;
+    width: 200px;
     line-height: 15px;
     margin-right: 100px;
     display: none;

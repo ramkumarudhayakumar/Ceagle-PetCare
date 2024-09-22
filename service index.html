@@ -64,21 +64,21 @@
         <img class="original" src="/Images/banner service.jpg" />
         <section>
           <div class="frame">
-            <div class="div-wrapper">
+            <button class="div" onclick="showContent(1)">
               <div class="text-wrapper">Pet Walking</div>
-            </div>
-            <div class="div">
-              <div class="text-wrapper-2">Pet sitting</div>
-            </div>
-            <div class="div">
-              <div class="text-wrapper-2">Pet bathing</div>
-            </div>
-            <div class="div">
-              <div class="text-wrapper-2">Pet boarding</div>
-            </div>
-            <div class="div">
-              <div class="text-wrapper-2">Pet taxi</div>
-            </div>
+            </button>
+            <button class="div" onclick="showContent(2)">
+              <div class="text-wrapper">Pet Sitting</div>
+            </button>
+            <button class="div" onclick="showContent(3)">
+              <div class="text-wrapper">Pet Bathing</div>
+            </button>
+            <button class="div" onclick="showContent(4)">
+              <div class="text-wrapper">Pet Boarding</div>
+            </button>
+            <button class="div" onclick="showContent(5)">
+              <div class="text-wrapper">Pet Taxi</div>
+            </button>
           </div>
         </section>
       </div>
@@ -87,7 +87,7 @@
 
     <!-- ----------------------------------------------------------- Petwalking service--------------------- -->
     <main>
-      <div class="pet-service">
+      <div class="pet-service-1 content" id="content-1">
         <div class="text-wrapper">Pet Walking Service!</div>
         <h2 class="welcome-to-bangalore">
           Welcome To Bangalore&#39;s Premier Dog Walking Service!
@@ -98,6 +98,22 @@
           Here To Ensure Your Furry Friend Gets The Exercise And Attention They
           Need, No Matter How Busy Your Schedule Is.
         </p>
+      </div>
+      <div class="pet-service content" id="content-2">
+        <div class="text-wrapper">Pet Sitting Service!</div>
+        <!-- Rest of the content -->
+      </div>
+      <div class="pet-service content" id="content-3">
+        <div class="text-wrapper">Pet Bathing Service!</div>
+        <!-- Rest of the content -->
+      </div>
+      <div class="pet-service content" id="content-4">
+        <div class="text-wrapper">Pet Boarding Service!</div>
+        <!-- Rest of the content -->
+      </div>
+      <div class="pet-service content" id="content-5">
+        <div class="text-wrapper">Pet Taxi Service!</div>
+        <!-- Rest of the content -->
       </div>
     </main>
     <!-- -----------------------------------------------Petwalking service-------------------------------------- -->
@@ -225,10 +241,12 @@
               <div class="quick-links">
                 <div class="text-wrapper-2">Quick Links</div>
                 <div class="frame">
-                  <div class="text-wrapper-3">Home</div>
-                  <div class="text-wrapper-3">About us</div>
-                  <div class="text-wrapper-3">Services</div>
-                  <div class="text-wrapper-3">Contact us</div>
+                  <a href="/index.html" class="text-wrapper-3">Home</a>
+                  <a href="/About.html" class="text-wrapper-3">About us</a>
+                  <a href="/service index.html" class="text-wrapper-3"
+                    >Services</a
+                  >
+                  <a href="/Contacs.html" class="text-wrapper-3">Contact us</a>
                 </div>
               </div>
               <div class="contacts">

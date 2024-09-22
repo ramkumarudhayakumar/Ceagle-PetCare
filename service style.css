@@ -17,6 +17,9 @@ body {
     opacity: 1;
   }
 }
+.active {
+  display: block;
+}
 section {
   position: relative;
   width: 100%;
@@ -235,24 +238,14 @@ main {
   align-items: center;
   justify-content: center;
 }
-
-.banner .div-wrapper {
-  width: 137.85px;
-  height: 35.9px;
-  gap: 4.79px;
-  padding: 4.79px;
-  position: relative;
+.banner .frame button.active {
   background-color: #273dff;
-  border-radius: 14.36px;
-  border: 0.48px solid;
-  border-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
+.banner .frame button:hover {
+  background-color: #273dff;
+}
 .banner .text-wrapper {
-  color: #ffffff;
+  color: #000000;
   position: relative;
   width: fit-content;
   margin-top: -0.82px;
@@ -294,14 +287,24 @@ main {
 /* ------------------------------------------------Banner & tabs------------------------------------------- */
 
 /* -------------------------------------------Petwalking service ----------------------------------------------- */
-.pet-service {
+
+.pet-service-1 {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
-
+.pet-service {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.pet-service-1 .text-wrapper,
 .pet-service .text-wrapper {
   position: relative;
   width: fit-content;
@@ -315,7 +318,7 @@ main {
   line-height: 61.8px;
   white-space: nowrap;
 }
-
+.pet-service-1 .welcome-to-bangalore,
 .pet-service .welcome-to-bangalore {
   position: relative;
   align-self: stretch;
@@ -327,7 +330,7 @@ main {
   letter-spacing: 0;
   height: 10px;
 }
-
+.pet-service-1 .are-you-searching,
 .pet-service .are-you-searching {
   position: relative;
   width: 1137px;
@@ -640,6 +643,7 @@ main {
   font-size: 22.7px;
   letter-spacing: 0;
   line-height: 34px;
+  text-decoration: none;
 }
 .section .call {
   display: inline-flex;
@@ -836,14 +840,15 @@ main {
     aspect-ratio: 16/7;
     border-radius: 20px;
   }
+  .pet-service-1 .text-wrapper,
   .pet-service .text-wrapper {
     font-size: 30.5px;
   }
-
+  .pet-service-1 .welcome-to-bangalore,
   .pet-service .welcome-to-bangalore {
     font-size: 20.5px;
   }
-
+  .pet-service-1 .are-you-searching,
   .pet-service .are-you-searching {
     width: 80%;
     font-size: 14px;
@@ -992,9 +997,14 @@ main {
     align-items: center;
     justify-content: center;
   }
-
+  .banner .frame button.active {
+    background-color: #273dff;
+  }
+  .banner .frame button:hover {
+    background-color: #273dff;
+  }
   .banner .text-wrapper {
-    color: #ffffff;
+    color: #000000;
     position: relative;
     width: fit-content;
     margin-top: -0.82px;
@@ -1330,7 +1340,12 @@ main {
     top: 0;
     left: 0;
   }
-
+  .banner .frame button.active {
+    background-color: #273dff;
+  }
+  .banner .frame button:hover {
+    background-color: #273dff;
+  }
   .banner .frame {
     width: 85%;
     height: 50px;
@@ -1365,7 +1380,7 @@ main {
   }
 
   .banner .text-wrapper {
-    color: #ffffff;
+    color: #000000;
     position: relative;
     width: fit-content;
     margin-top: -0.82px;
@@ -1971,7 +1986,12 @@ main {
     align-items: flex-start;
     justify-content: center;
   }
-
+  .banner .frame button.active {
+    background-color: #273dff;
+  }
+  .banner .frame button:hover {
+    background-color: #273dff;
+  }
   .banner .div-wrapper {
     width: 80.85px;
     height: 20.9px;
@@ -1988,7 +2008,7 @@ main {
   }
 
   .banner .text-wrapper {
-    color: #ffffff;
+    color: #000000;
     position: relative;
     width: fit-content;
     margin-top: -0.82px;
@@ -2020,14 +2040,21 @@ main {
     line-height: 26.7px;
     white-space: nowrap;
   }
-  .pet-service {
+  .pet-service-1 {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     position: static;
   }
-
+  .pet-service {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: static;
+  }
+  .pet-service-1 .text-wrapper,
   .pet-service .text-wrapper {
     position: static;
     width: fit-content;
@@ -2041,7 +2068,7 @@ main {
     line-height: 30.8px;
     white-space: nowrap;
   }
-
+  .pet-service-1 .welcome-to-bangalore,
   .pet-service .welcome-to-bangalore {
     position: relative;
     align-self: stretch;
@@ -2053,7 +2080,7 @@ main {
     letter-spacing: 0;
     height: 10px;
   }
-
+  .pet-service-1 .are-you-searching,
   .pet-service .are-you-searching {
     position: relative;
     width: 90%;

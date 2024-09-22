@@ -96,11 +96,11 @@ main {
   border: none;
   padding: 0;
 }
+/* <!-- --------------------------------Header contact----------------------------------- */
+/* ---------------------------Navbar--------------------------------------- */
 .bars {
   display: none;
 }
-/* <!-- --------------------------------Header contact----------------------------------- */
-/* ---------------------------Navbar--------------------------------------- */
 .navbar {
   display: flex;
   align-items: center;
@@ -110,7 +110,6 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  min-width: 1519px;
   min-height: 44px;
   background-color: rgb(255, 255, 255);
   padding: 15px 0;
@@ -118,6 +117,9 @@ main {
 }
 .nav-anchor {
   text-decoration: none;
+  color: #1c3352;
+}
+.nav-anchor:hover {
   color: #1c3352;
 }
 .active {
@@ -137,21 +139,11 @@ main {
   position: relative;
   flex: 0 0 auto;
 }
-
-.navbar .contact-us-link {
-  position: relative;
-  width: fit-content;
-  margin-top: -0.5px;
-  font-family: "Poppins-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #00ad8a;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: -0.16px;
-  line-height: 41.8px;
-  white-space: nowrap;
+.navbar .text-wrapper:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  color: #1c3352;
 }
-
 .navbar .text-wrapper {
   position: relative;
   width: fit-content;
@@ -165,20 +157,11 @@ main {
   line-height: 41.8px;
   white-space: nowrap;
 }
-.navbar .contact-us-link:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-  color: #1c3352;
-}
-.navbar .text-wrapper:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-  color: #1c3352;
-}
+
 .navbar .contact-section {
   display: flex;
-  width: 142px;
-  height: 37px;
+  width: 100px;
+  height: 30px;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -273,34 +256,39 @@ main {
 /* -------------------------------------Contacts------------------------------------- */
 .element-boxes {
   display: flex;
-  width: 1519px;
-  height: 292px;
+  width: 100vw;
+  height: auto;
   align-items: center;
   justify-content: center;
   gap: 122px;
-  position: relative;
+  margin: 80px 0;
 }
 
-.element-boxes .call {
+.element-boxes .call,
+.element-boxes .location,
+.element-boxes .mail {
   display: flex;
   flex-direction: column;
   width: 284.82px;
   height: 205.99px;
   align-items: center;
-  justify-content: center;
-  gap: -5.51px;
+  justify-content: space-evenly;
+  gap: 20px;
   position: relative;
   background-color: #ffffff;
   border-radius: 14.87px;
   box-shadow: 0px -1px 17.1px #00000042;
 }
 
-.element-boxes .vector {
-  position: relative;
+.element-boxes .vector,
+.element-boxes .img,
+.element-boxes .mail-2 {
   width: 46.21px;
   height: 43.64px;
 }
-
+.element-boxes .vector-space {
+  margin-top: 5px;
+}
 .element-boxes .numbers {
   display: flex;
   flex-direction: column;
@@ -312,20 +300,6 @@ main {
 }
 
 .element-boxes .text-wrapper {
-  position: relative;
-  align-self: stretch;
-  margin-top: -0.74px;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #203059;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: -0.2px;
-  line-height: 61.8px;
-}
-
-.element-boxes .div {
-  position: relative;
   align-self: stretch;
   font-family: "Poppins-Regular", Helvetica;
   font-weight: 400;
@@ -333,53 +307,9 @@ main {
   font-size: 20px;
   text-align: center;
   letter-spacing: -0.2px;
-  line-height: 61.8px;
 }
-
-.element-boxes .location {
-  display: flex;
-  flex-direction: column;
-  width: 284.08px;
-  height: 205.99px;
-  align-items: center;
-  justify-content: center;
-  gap: 59.49px;
-  position: relative;
-  background-color: #ffffff;
-  border-radius: 14.87px;
-  box-shadow: 0px -1px 17.1px #00000042;
-}
-
-.element-boxes .img {
-  position: relative;
-  width: 31.83px;
-  height: 43.13px;
-}
-
-.element-boxes .element-pet-care-banglore {
-  position: relative;
-  align-self: stretch;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #203059;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: -0.2px;
-  line-height: 29.7px;
-}
-
-.element-boxes .mail {
-  display: flex;
-  flex-direction: column;
-  width: 284.08px;
-  height: 205.99px;
-  align-items: center;
-  justify-content: center;
-  gap: 59.49px;
-  position: relative;
-  background-color: #ffffff;
-  border-radius: 14.87px;
-  box-shadow: 0px -1px 17.1px #00000042;
+.element-boxes .text-wrapper-1 {
+  padding-bottom: 5px;
 }
 
 /* -------------------------------------Contacts------------------------------------- */
@@ -395,13 +325,13 @@ main {
 
 .section .footer-wrapper {
   background-color: #ffffff;
-  width: 1519px;
+  width: 100vw;
   height: 711px;
 }
 
 .section .footer {
   flex-direction: column;
-  width: 1519px;
+  width: 100%;
   align-items: flex-start;
   top: 304px;
   background-color: transparent;
@@ -461,9 +391,11 @@ main {
   gap: 80px;
   position: relative;
   flex: 0 0 auto;
+  margin-top: 50px;
 }
 
-.section .quick-links {
+.section .quick-links,
+.section .contacts {
   display: flex;
   flex-direction: column;
   width: 234px;
@@ -475,11 +407,10 @@ main {
 .section .text-wrapper-2 {
   position: relative;
   align-self: stretch;
-  margin-top: -1px;
   font-family: "Poppins-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 40.4px;
+  font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -506,38 +437,6 @@ main {
   letter-spacing: 0;
   line-height: 34px;
 }
-
-.section .text-wrapper-4 {
-  position: relative;
-  align-self: stretch;
-  font-family: "DM Sans-Medium", Helvetica;
-  font-weight: 500;
-  color: white;
-  font-size: 22.7px;
-  letter-spacing: 0;
-  line-height: 34px;
-}
-
-.section .contacts {
-  display: flex;
-  flex-direction: column;
-  width: 298px;
-  align-items: flex-start;
-  gap: 55px;
-  position: relative;
-}
-
-.section .frame-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 19px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
 .section .call {
   display: inline-flex;
   align-items: center;
@@ -547,22 +446,8 @@ main {
 }
 
 .section .img {
-  position: relative;
-  width: 25.52px;
-  height: 25.52px;
-}
-
-.section .text-wrapper-5 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.42px;
-  font-family: "DM Sans-Medium", Helvetica;
-  font-weight: 500;
-  color: white;
-  font-size: 22.7px;
-  letter-spacing: 0;
-  line-height: 34px;
-  white-space: nowrap;
+  width: 20px;
+  height: 20px;
 }
 
 .section .mail {
@@ -574,68 +459,20 @@ main {
   width: 100%;
   flex: 0 0 auto;
 }
-
-.section .text-wrapper-6 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.42px;
-  margin-right: -0.86px;
-  font-family: "DM Sans-Medium", Helvetica;
-  font-weight: 500;
-  color: white;
-  font-size: 23.3px;
-  letter-spacing: 0;
-  line-height: 34.9px;
-  white-space: nowrap;
-}
-
-.section .text-wrapper-7 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: "Poppins-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 29.2px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .section .frame-3 {
-  position: relative;
-  width: 179.03px;
-  height: 15.77px;
+  /* width: 179.03px;
+  height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .section .element {
-  position: absolute;
-  width: 8px;
-  height: 16px;
-  top: 0;
-  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
 }
-
-.section .element-2 {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 0;
-  left: 15px;
-}
-
-.section .text-wrapper-8 {
-  position: absolute;
-  top: 1px;
-  left: 37px;
-  font-family: "Poppins-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18.7px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
 .section .dog-with-text {
   display: flex;
   flex-direction: column;
@@ -695,9 +532,13 @@ main {
   object-fit: cover;
 }
 .section .dog-with-text .p-2 {
+  margin-right: 150px;
+  color: #fff;
   display: none;
 }
+
 /* -------------------------------------------Footer--------------------------------------- */
+
 @media screen and (max-width: 1200px) {
   .navbar {
     display: flex;
@@ -763,248 +604,18 @@ main {
     letter-spacing: -0.3px;
     line-height: 41.7px;
   }
-  .section .footer-wrapper {
-    background-color: #ffffff;
-    width: 1500px;
-    height: 600px;
-  }
-  .section .footer {
-    flex-direction: column;
-    width: 1519px;
-    align-items: flex-start;
-    top: 304px;
-    background-color: transparent;
-    display: flex;
-    position: relative;
-  }
-
+  /* ----------------------------------Footer------------------------------------------------ */
   .section .footer-text {
     height: 407px;
     align-items: center;
     justify-content: center;
-    gap: 170px;
+    gap: 100px;
     align-self: stretch;
     width: 100%;
     background-color: #203059;
     display: flex;
     position: relative;
   }
-
-  .section .logo {
-    display: flex;
-    flex-direction: column;
-    width: 167px;
-    align-items: flex-end;
-    gap: 7px;
-    position: relative;
-  }
-
-  .section .text-wrapper {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Montserrat-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 45.9px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .div {
-    position: relative;
-    align-self: stretch;
-    font-family: "Montserrat-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18.7px;
-    text-align: right;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .quick-and-contact {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 80px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .section .quick-links {
-    display: flex;
-    flex-direction: column;
-    width: 234px;
-    align-items: flex-start;
-    gap: 24px;
-    position: relative;
-  }
-
-  .section .text-wrapper-2 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 40.4px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .frame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 13px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .section .text-wrapper-3 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 22.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .text-wrapper-4 {
-    position: relative;
-    align-self: stretch;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 22.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 298px;
-    align-items: flex-start;
-    gap: 55px;
-    position: relative;
-  }
-
-  .section .frame-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 19px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .section .call {
-    display: inline-flex;
-    align-items: center;
-    gap: 11.34px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .section .img {
-    position: relative;
-    width: 25.52px;
-    height: 25.52px;
-  }
-
-  .section .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 22.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-    white-space: nowrap;
-  }
-
-  .section .mail {
-    display: flex;
-    align-items: center;
-    gap: 11.34px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .section .text-wrapper-6 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    margin-right: -0.86px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 23.3px;
-    letter-spacing: 0;
-    line-height: 34.9px;
-    white-space: nowrap;
-  }
-
-  .section .text-wrapper-7 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 29.2px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .section .frame-3 {
-    position: relative;
-    width: 179.03px;
-    height: 15.77px;
-  }
-
-  .section .element {
-    position: absolute;
-    width: 8px;
-    height: 16px;
-    top: 0;
-    left: 0;
-  }
-
-  .section .element-2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 15px;
-  }
-
-  .section .text-wrapper-8 {
-    position: absolute;
-    top: 1px;
-    left: 37px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-
   .section .dog-with-text {
     display: flex;
     flex-direction: column;
@@ -1014,7 +625,7 @@ main {
     gap: 10px;
     position: absolute;
     top: -114px;
-    left: 0;
+    left: -250px;
   }
 
   .section .text-img-container {
@@ -1063,115 +674,10 @@ main {
     left: 0;
     object-fit: cover;
   }
+  /* ----------------------------------Footer------------------------------------------------ */
   .element-boxes {
-    display: flex;
-    width: 100vw;
-    height: 292px;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-    position: relative;
-  }
-
-  .element-boxes .call {
-    display: flex;
-    flex-direction: column;
-    width: 250.82px;
-    height: 175.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 0px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
-  }
-
-  .element-boxes .vector {
-    position: relative;
-    width: 46.21px;
-    height: 43.64px;
-  }
-
-  .element-boxes .numbers {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .element-boxes .text-wrapper {
-    position: relative;
-    align-self: stretch;
-    margin-top: -0.74px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 50.8px;
-  }
-
-  .element-boxes .div {
-    position: relative;
-    align-self: stretch;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 50.8px;
-  }
-
-  .element-boxes .location {
-    display: flex;
-    flex-direction: column;
-    width: 250.82px;
-    height: 175.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 25.49px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
-  }
-
-  .element-boxes .img {
-    position: relative;
-    width: 31.83px;
-    height: 43.13px;
-  }
-
-  .element-boxes .element-pet-care-banglore {
-    position: relative;
-    align-self: stretch;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 29.7px;
-  }
-
-  .element-boxes .mail {
-    display: flex;
-    flex-direction: column;
-    width: 250.82px;
-    height: 175.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 25.49px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
+    gap: 50px;
+    margin: 80px 0;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1199,7 +705,7 @@ main {
   }
   .navbar .contact-section {
     display: flex;
-    width: 120px;
+    width: 100px;
     height: 30px;
     align-items: center;
     justify-content: center;
@@ -1293,21 +799,24 @@ main {
     width: 100%;
     border-radius: 15px;
   }
+  /* ----------------------------------Footer------------------------------------------------ */
   .section {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 102vw;
+    width: 100%;
   }
+
   .section .footer-wrapper {
     background-color: #ffffff;
-    width: 102vw;
-    height: 600px;
+    width: 100vw;
+    height: 711px;
   }
+
   .section .footer {
     flex-direction: column;
-    width: 102vw;
+    width: 100vw;
     align-items: flex-start;
     top: 304px;
     background-color: transparent;
@@ -1318,7 +827,7 @@ main {
   .section .footer-text {
     height: 407px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 80px;
     align-self: stretch;
     width: 100%;
@@ -1330,11 +839,10 @@ main {
   .section .logo {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 187px;
     align-items: flex-end;
     gap: 7px;
     position: relative;
-    left: 20px;
   }
 
   .section .text-wrapper {
@@ -1344,7 +852,7 @@ main {
     font-family: "Montserrat-SemiBold", Helvetica;
     font-weight: 600;
     color: #ffffff;
-    font-size: 40.9px;
+    font-size: 45px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -1356,7 +864,7 @@ main {
     font-family: "Montserrat-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 16.7px;
+    font-size: 17px;
     text-align: right;
     letter-spacing: 0;
     line-height: normal;
@@ -1368,12 +876,14 @@ main {
     gap: 60px;
     position: relative;
     flex: 0 0 auto;
+    margin-top: 50px;
   }
 
-  .section .quick-links {
+  .section .quick-links,
+  .section .contacts {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 234px;
     align-items: flex-start;
     gap: 24px;
     position: relative;
@@ -1386,7 +896,7 @@ main {
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
-    font-size: 38.4px;
+    font-size: 35px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -1409,43 +919,10 @@ main {
     font-family: "DM Sans-Medium", Helvetica;
     font-weight: 500;
     color: white;
-    font-size: 18.7px;
+    font-size: 18px;
     letter-spacing: 0;
     line-height: 34px;
   }
-
-  .section .text-wrapper-4 {
-    position: relative;
-    align-self: stretch;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    align-items: flex-start;
-    gap: 55px;
-    position: relative;
-    margin-top: 3px;
-  }
-
-  .section .frame-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 19px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
   .section .call {
     display: inline-flex;
     align-items: center;
@@ -1455,22 +932,8 @@ main {
   }
 
   .section .img {
-    position: relative;
-    width: 25.52px;
-    height: 25.52px;
-  }
-
-  .section .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-    white-space: nowrap;
+    width: 20px;
+    height: 20px;
   }
 
   .section .mail {
@@ -1482,60 +945,20 @@ main {
     width: 100%;
     flex: 0 0 auto;
   }
-
-  .section .text-wrapper-6 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    margin-right: -0.86px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: 34.9px;
-    white-space: nowrap;
-  }
-
-  .section .text-wrapper-7 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: normal;
+  .section .frame-3 {
+    /* width: 179.03px;
+  height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
   .section .element {
-    position: absolute;
-    width: 8px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     top: 0;
     left: 0;
-  }
-
-  .section .element-2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 15px;
-  }
-
-  .section .text-wrapper-8 {
-    position: absolute;
-    top: 1px;
-    left: 37px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18.7px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
   }
 
   .section .dog-with-text {
@@ -1601,36 +1024,42 @@ main {
     bottom: 40px;
     right: 450px;
   }
+  /* -------------------------------------Contacts------------------------------------- */
   .element-boxes {
     display: flex;
     width: 100vw;
-    height: 292px;
+    height: auto;
     align-items: center;
     justify-content: center;
-    gap: 60px;
-    position: relative;
+    gap: 80px;
+    margin: 80px 0;
   }
 
-  .element-boxes .call {
+  .element-boxes .call,
+  .element-boxes .location,
+  .element-boxes .mail {
     display: flex;
     flex-direction: column;
-    width: 200.82px;
-    height: 155.99px;
+    width: 180px;
+    height: 180px;
     align-items: center;
-    justify-content: center;
-    gap: 0px;
+    justify-content: space-evenly;
+    gap: 20px;
     position: relative;
     background-color: #ffffff;
     border-radius: 14.87px;
     box-shadow: 0px -1px 17.1px #00000042;
   }
 
-  .element-boxes .vector {
-    position: relative;
-    width: 46.21px;
-    height: 43.64px;
+  .element-boxes .vector,
+  .element-boxes .img,
+  .element-boxes .mail-2 {
+    width: 35px;
+    height: 33px;
   }
-
+  .element-boxes .vector-space {
+    margin-top: 5px;
+  }
   .element-boxes .numbers {
     display: flex;
     flex-direction: column;
@@ -1642,75 +1071,19 @@ main {
   }
 
   .element-boxes .text-wrapper {
-    position: relative;
-    align-self: stretch;
-    margin-top: -0.74px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 50.8px;
-  }
-
-  .element-boxes .div {
-    position: relative;
     align-self: stretch;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #203059;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     letter-spacing: -0.2px;
-    line-height: 50.8px;
+  }
+  .element-boxes .text-wrapper-1 {
+    padding-bottom: 5px;
   }
 
-  .element-boxes .location {
-    display: flex;
-    flex-direction: column;
-    width: 200.82px;
-    height: 155.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 25.49px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
-  }
-
-  .element-boxes .img {
-    position: relative;
-    width: 31.83px;
-    height: 43.13px;
-  }
-
-  .element-boxes .element-pet-care-banglore {
-    position: relative;
-    align-self: stretch;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 29.7px;
-  }
-
-  .element-boxes .mail {
-    display: flex;
-    flex-direction: column;
-    width: 200.82px;
-    height: 155.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 25.49px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
-  }
+  /* -------------------------------------Contacts------------------------------------- */
 }
 @media screen and (max-width: 750px) {
   .navbar .contact-section {
@@ -1901,36 +1274,42 @@ main {
     object-fit: cover;
     border-radius: 10px;
   }
+  /* -------------------------------------Contacts------------------------------------- */
   .element-boxes {
     display: flex;
     width: 100vw;
-    height: 292px;
+    height: auto;
     align-items: center;
     justify-content: center;
-    gap: 60px;
-    position: relative;
+    gap: 80px;
+    margin: 80px 0;
   }
 
-  .element-boxes .call {
+  .element-boxes .call,
+  .element-boxes .location,
+  .element-boxes .mail {
     display: flex;
     flex-direction: column;
-    width: 180.82px;
-    height: 130.99px;
+    width: 160px;
+    height: 160px;
     align-items: center;
-    justify-content: center;
-    gap: 0px;
+    justify-content: space-evenly;
+    gap: 20px;
     position: relative;
     background-color: #ffffff;
     border-radius: 14.87px;
     box-shadow: 0px -1px 17.1px #00000042;
   }
 
-  .element-boxes .vector {
-    position: relative;
-    width: 20.83px;
-    height: 30.13px;
+  .element-boxes .vector,
+  .element-boxes .img,
+  .element-boxes .mail-2 {
+    width: 33px;
+    height: 31px;
   }
-
+  .element-boxes .vector-space {
+    margin-top: 5px;
+  }
   .element-boxes .numbers {
     display: flex;
     flex-direction: column;
@@ -1942,20 +1321,6 @@ main {
   }
 
   .element-boxes .text-wrapper {
-    position: relative;
-    align-self: stretch;
-    margin-top: -0.74px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 40.8px;
-  }
-
-  .element-boxes .div {
-    position: relative;
     align-self: stretch;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
@@ -1963,60 +1328,30 @@ main {
     font-size: 14px;
     text-align: center;
     letter-spacing: -0.2px;
-    line-height: 40.8px;
+  }
+  .element-boxes .text-wrapper-1 {
+    padding-bottom: 5px;
   }
 
-  .element-boxes .location {
-    display: flex;
-    flex-direction: column;
-    width: 180.82px;
-    height: 130.99px;
+  /* -------------------------------------Contacts------------------------------------- */
+  .section .footer-text {
+    height: 407px;
     align-items: center;
     justify-content: center;
-    gap: 25.49px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
-  }
-
-  .element-boxes .img {
-    position: relative;
-    width: 20.83px;
-    height: 30.13px;
-  }
-
-  .element-boxes .element-pet-care-banglore {
-    position: relative;
+    gap: 60px;
     align-self: stretch;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 20.7px;
-  }
-
-  .element-boxes .mail {
+    width: 100%;
+    background-color: #203059;
     display: flex;
-    flex-direction: column;
-    width: 180.82px;
-    height: 130.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 25.49px;
     position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
   }
-  .element-boxes .mail-2 {
-    width: 20.83px;
-    height: 30.13px;
-  }
-  .element-boxes .text-wrapper-2 {
-    font-size: 14px;
+  .section .quick-and-contact {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: 50px;
   }
 }
 @media (max-width: 567px) {
@@ -2141,7 +1476,7 @@ main {
   .banner-dog-and-cat .image-of-pets {
     position: relative;
     width: 100vw;
-    height: 100px;
+    height: 250px;
     object-fit: fill;
   }
   .banner-dog-and-cat .text-block {
@@ -2358,50 +1693,51 @@ main {
     font-size: 0.6rem;
     padding: 0 5px;
   }
+  /* ----------------------------------Footer------------------------------------------------ */
   .section {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 102vw;
+    width: 100%;
   }
+
   .section .footer-wrapper {
     background-color: #ffffff;
-    width: 102vw;
-    height: 100px;
+    width: 100vw;
+    height: auto;
   }
+
   .section .footer {
     flex-direction: column;
-    width: 102vw;
+    width: 100vw;
     align-items: flex-start;
-    top: 120px;
+    top: 100px;
     background-color: transparent;
     display: flex;
     position: relative;
   }
 
   .section .footer-text {
-    height: 500px;
-    padding-top: 50px;
+    height: auto;
     align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 70px;
-    align-self: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0 30px 0;
+    align-self: stretch;
     width: 100%;
     background-color: #203059;
     display: flex;
-    position: relative;
+    flex-direction: column;
   }
 
   .section .logo {
     display: flex;
     flex-direction: column;
-    width: 150px;
-    align-items: center;
+    width: 120px;
+    align-items: flex-end;
     gap: 7px;
     position: relative;
-    left: -20px;
   }
 
   .section .text-wrapper {
@@ -2411,7 +1747,7 @@ main {
     font-family: "Montserrat-SemiBold", Helvetica;
     font-weight: 600;
     color: #ffffff;
-    font-size: 40.9px;
+    font-size: 35px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -2423,7 +1759,7 @@ main {
     font-family: "Montserrat-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 16.7px;
+    font-size: 12px;
     text-align: right;
     letter-spacing: 0;
     line-height: normal;
@@ -2432,12 +1768,14 @@ main {
   .section .quick-and-contact {
     display: inline-flex;
     align-items: flex-start;
-    gap: 0px;
+    gap: 20px;
     position: relative;
     flex: 0 0 auto;
+    margin-top: 50px;
   }
 
-  .section .quick-links {
+  .section .quick-links,
+  .section .contacts {
     display: flex;
     flex-direction: column;
     width: 150px;
@@ -2453,7 +1791,7 @@ main {
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
-    font-size: 25.4px;
+    font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -2462,7 +1800,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 13px;
+    gap: 5px;
     position: relative;
     align-self: stretch;
     width: 100%;
@@ -2476,46 +1814,10 @@ main {
     font-family: "DM Sans-Medium", Helvetica;
     font-weight: 500;
     color: white;
-    font-size: 12.7px;
+    font-size: 12px;
     letter-spacing: 0;
     line-height: 34px;
   }
-
-  .section .text-wrapper-4 {
-    position: relative;
-    align-self: stretch;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-  }
-
-  .section .contacts {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    align-items: flex-start;
-    gap: 30px;
-    position: relative;
-    margin-top: 1.5px;
-  }
-
-  .section .frame-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 19px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  .section .frame-3 {
-    margin-top: 10px;
-  }
-
   .section .call {
     display: inline-flex;
     align-items: center;
@@ -2525,22 +1827,8 @@ main {
   }
 
   .section .img {
-    position: relative;
-    width: 20.52px;
-    height: 20.52px;
-  }
-
-  .section .text-wrapper-5 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: 34px;
-    white-space: nowrap;
+    width: 12px;
+    height: 12px;
   }
 
   .section .mail {
@@ -2552,62 +1840,22 @@ main {
     width: 100%;
     flex: 0 0 auto;
   }
-
-  .section .text-wrapper-6 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.42px;
-    margin-right: -0.86px;
-    font-family: "DM Sans-Medium", Helvetica;
-    font-weight: 500;
-    color: white;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: 34.9px;
-    white-space: nowrap;
-  }
-
-  .section .text-wrapper-7 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: normal;
+  .section .frame-3 {
+    /* width: 179.03px;
+  height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
   }
 
   .section .element {
-    position: absolute;
-    width: 8px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     top: 0;
     left: 0;
+    margin-bottom: 7px;
   }
-
-  .section .element-2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 15px;
-  }
-
-  .section .text-wrapper-8 {
-    position: absolute;
-    top: 1px;
-    left: 37px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 12.7px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-
   .section .dog-with-text {
     display: flex;
     flex-direction: column;
@@ -2660,6 +1908,7 @@ main {
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
   }
+  /* -------------------------------------Contacts------------------------------------- */
   .element-boxes {
     display: flex;
     flex-direction: column;
@@ -2667,31 +1916,35 @@ main {
     height: auto;
     align-items: center;
     justify-content: center;
-    gap: 60px;
-    position: relative;
-    margin: 50px 0 80px 0;
+    gap: 80px;
+    margin: 80px 0;
   }
 
-  .element-boxes .call {
+  .element-boxes .call,
+  .element-boxes .location,
+  .element-boxes .mail {
     display: flex;
     flex-direction: column;
-    width: 180.82px;
-    height: 130.99px;
+    width: 180px;
+    height: 180px;
     align-items: center;
-    justify-content: center;
-    gap: 0px;
+    justify-content: space-evenly;
+    gap: 20px;
     position: relative;
     background-color: #ffffff;
     border-radius: 14.87px;
     box-shadow: 0px -1px 17.1px #00000042;
   }
 
-  .element-boxes .vector {
-    position: relative;
-    width: 20.83px;
-    height: 30.13px;
+  .element-boxes .vector,
+  .element-boxes .img,
+  .element-boxes .mail-2 {
+    width: 35px;
+    height: 33px;
   }
-
+  .element-boxes .vector-space {
+    margin-top: 5px;
+  }
   .element-boxes .numbers {
     display: flex;
     flex-direction: column;
@@ -2703,80 +1956,17 @@ main {
   }
 
   .element-boxes .text-wrapper {
-    position: relative;
-    align-self: stretch;
-    margin-top: -0.74px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 40.8px;
-  }
-
-  .element-boxes .div {
-    position: relative;
     align-self: stretch;
     font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #203059;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     letter-spacing: -0.2px;
-    line-height: 40.8px;
+  }
+  .element-boxes .text-wrapper-1 {
+    padding-bottom: 5px;
   }
 
-  .element-boxes .location {
-    display: flex;
-    flex-direction: column;
-    width: 180.82px;
-    height: 130.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 25.49px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
-  }
-
-  .element-boxes .img {
-    position: relative;
-    width: 20.83px;
-    height: 30.13px;
-  }
-
-  .element-boxes .element-pet-care-banglore {
-    position: relative;
-    align-self: stretch;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #203059;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    line-height: 20.7px;
-  }
-
-  .element-boxes .mail {
-    display: flex;
-    flex-direction: column;
-    width: 180.82px;
-    height: 130.99px;
-    align-items: center;
-    justify-content: center;
-    gap: 25.49px;
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 14.87px;
-    box-shadow: 0px -1px 17.1px #00000042;
-  }
-  .element-boxes .mail-2 {
-    width: 20.83px;
-    height: 30.13px;
-  }
-  .element-boxes .text-wrapper-2 {
-    font-size: 14px;
-  }
+  /* -------------------------------------Contacts------------------------------------- */
 }
