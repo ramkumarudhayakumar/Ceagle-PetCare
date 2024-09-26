@@ -13,4 +13,25 @@ function showContent(index) {
   if (selectedContent) {
     selectedContent.style.display = "flex";
   }
+
+  const bannerImage = document.querySelector(".original");
+  switch (index) {
+    case 1:
+      bannerImage.src = "/Images/serviceBanner/petWalking.jpg";
+      break;
+    case 2:
+      bannerImage.src = "/Images/serviceBanner/petSitting.jpg";
+      break;
+    case 3:
+      bannerImage.src = "/Images/serviceBanner/petBathing.jpg";
+      break;
+    case 4:
+      bannerImage.src = "/Images/serviceBanner/petBoarding.jpg";
+      break;
+    case 5:
+      bannerImage.src = "/Images/serviceBanner/petTaxi.jpg";
+      break;
+    default:
+      bannerImage.src = "/Images/banner service.jpg";
+  }
 }
