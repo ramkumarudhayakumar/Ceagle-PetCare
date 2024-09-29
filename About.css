@@ -18,6 +18,15 @@ body {
     opacity: 1;
   }
 }
+.about-banner-top {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("./Images/serviceBanner/petWalking.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+
 section,
 main {
   position: relative;
