@@ -138,6 +138,7 @@ main {
 }
 .active {
   color: #3eb3a0;
+  font-weight: bold;
 }
 .navbar .whatsapp-image {
   position: relative;
@@ -221,7 +222,6 @@ main {
 
 .whatsapp-icon {
   margin-top: 16px;
-  font-size: 10px;
 }
 
 /* for mobile */
@@ -305,7 +305,23 @@ main {
   align-items: center;
   justify-content: center;
 }
+.frame .div {
+  background-color: #f0f0f0;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
+.frame .div:hover {
+  background-color: #e0e0e0;
+}
+
+.frame .div.active {
+  background-color: blue;
+  color: white;
+}
 .banner .text-wrapper-2 {
   color: #000000;
   position: relative;
@@ -1356,7 +1372,7 @@ main {
   .whatsapp_float {
     position: fixed;
     bottom: 40px;
-    right: 450px;
+    right: 50px;
   }
   .banner {
     width: 100%;
@@ -2222,5 +2238,19 @@ main {
     font-size: 14px;
     letter-spacing: 0;
     line-height: 30px;
+  }
+  .whatsapp_float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 50px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
   }
 }

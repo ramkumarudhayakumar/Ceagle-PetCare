@@ -34,4 +34,11 @@ function showContent(index) {
     default:
       bannerImage.src = "/Images/banner service.jpg";
   }
+
+  const buttons = document.querySelectorAll(".frame .div");
+  buttons.forEach((button) => {
+    button.classList.remove("active");
+  });
+
+  buttons[index - 1].classList.add("active");
 }

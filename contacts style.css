@@ -124,6 +124,7 @@ main {
 }
 .active {
   color: #3eb3a0;
+  font-weight: bold;
 }
 .navbar .whatsapp-image {
   position: relative;
@@ -313,7 +314,42 @@ main {
 }
 
 /* -------------------------------------Contacts------------------------------------- */
+/* ---------------------------------------------Whatsapp button ---------------------------- */
 
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 100px;
+    right: 100px;
+    font-size: 22px;
+  }
+}
+/* ----------------------------------------Banner & tabs----------------------------------- */
 /* ----------------------------------Footer------------------------------------------------ */
 .section {
   background-color: #ffffff;
@@ -682,6 +718,11 @@ main {
   }
 }
 @media screen and (max-width: 900px) {
+  .whatsapp_float {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+  }
   .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -812,14 +853,14 @@ main {
   .section .footer-wrapper {
     background-color: #ffffff;
     width: 100vw;
-    height: 711px;
+    height: auto;
   }
 
   .section .footer {
     flex-direction: column;
     width: 100vw;
     align-items: flex-start;
-    top: 304px;
+    top: 404px;
     background-color: transparent;
     display: flex;
     position: relative;
@@ -1020,11 +1061,7 @@ main {
     left: 0;
     object-fit: cover;
   }
-  .whatsapp_float {
-    position: fixed;
-    bottom: 40px;
-    right: 450px;
-  }
+
   /* -------------------------------------Contacts------------------------------------- */
   .element-boxes {
     display: flex;
@@ -1356,6 +1393,11 @@ main {
   }
 }
 @media (max-width: 567px) {
+  .whatsapp_float {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+  }
   .bars {
     width: 30px;
     height: 20px;
@@ -1900,7 +1942,7 @@ main {
     width: 40px;
     height: 40px;
     bottom: 40px;
-    right: 150px;
+    right: 70px;
     background-color: #25d366;
     color: #fff;
     border-radius: 50px;

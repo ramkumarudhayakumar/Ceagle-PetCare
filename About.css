@@ -135,6 +135,7 @@ main {
 }
 .active {
   color: #3eb3a0;
+  font-weight: bold;
 }
 .navbar .whatsapp-image {
   position: relative;
@@ -199,6 +200,41 @@ main {
   text-decoration: none;
 }
 /* --------------------------------------Navbar------------------------------------ */
+/* ---------------------------------------------Whatsapp button ---------------------------- */
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
 /*-- -------------------------------About us------------------------------------------ --*/
 .about-us {
   display: flex;
@@ -948,6 +984,11 @@ main {
   /*-- -------------------------------About banner------------------------------------------ --*/
 }
 @media screen and (max-width: 900px) {
+  .whatsapp_float {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+  }
   .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -1483,6 +1524,11 @@ height: auto; */
   }
 }
 @media (max-width: 567px) {
+  .whatsapp_float {
+    position: fixed;
+    bottom: 40px;
+    right: 150px;
+  }
   .bars {
     width: 30px;
     height: 20px;

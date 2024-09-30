@@ -125,6 +125,7 @@ main {
 }
 .active {
   color: #3eb3a0;
+  font-weight: bold;
 }
 .navbar .whatsapp-image {
   position: relative;
